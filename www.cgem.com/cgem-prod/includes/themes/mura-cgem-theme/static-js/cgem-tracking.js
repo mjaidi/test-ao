@@ -62,9 +62,9 @@ $("section .main span#optin").click(function () {
 });
 $("section .main span#optout").click(function () {
 	optout();
-	$("section .main span#optout").closest("p").after("<p><strong>You have elected to opt-out. Return to the <a href='/'>CBI homepage</a></strong></p>");
+	$("section .main span#optout").closest("p").after("<p><strong>Vous avez choisi de quitter le site. retou <a href='/'>CGEM accueil</a></strong></p>");
 });
-if ((navigator.doNotTrack != "yes" || navigator.doNotTrack != "1" || navigator.msDoNotTrack != "1") && window.location.href.indexOf("cbi.org.uk") >= 0) {
+if ((navigator.doNotTrack != "yes" || navigator.doNotTrack != "1" || navigator.msDoNotTrack != "1") && window.location.href.indexOf("cgem.com") >= 0) {
 	if (document.cookie.indexOf("optout") >= 0) {} else {
 		/* Google */
 		(function (w, d, s, l, i) {

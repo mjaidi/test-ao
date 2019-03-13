@@ -27,7 +27,7 @@ h6 {
 	max-width: 970px
 }
 
-.cbi-body {
+.cgem-body {
 	background: url(../images/repeat_BG_pattern13e1.gif?20190214043432);
 	padding: 5px 0 50px 0
 }
@@ -36,9 +36,9 @@ a {
 	color: #264c80
 }
 
-.cbi-content__bodyCopy a,
-.cbi-newsFeed-items__title h4 a,
-.cbi-newsFeed-items__title h4 a span {
+.cgem-content__bodyCopy a,
+.cgem-newsFeed-items__title h4 a,
+.cgem-newsFeed-items__title h4 a span {
 	color: #0071cf !important
 }
 
@@ -61,45 +61,45 @@ a {
 		overflow-x: hidden
 	}
 
-	.cbi-body {
+	.cgem-body {
 		padding-top: 0
 	}
 }
 
-.cbi-body--home .cbi-content {
+.cgem-body--home .cgem-content {
 	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 	padding: 0 15px
 }
 
 
-.home2016 .cbi-footer {
+.home2016 .cgem-footer {
 	background: #0071cd;
 	padding: 20px 0
 }
 
-.home2016 .cbi-footer .container {
+.home2016 .cgem-footer .container {
 	width: 950px;
 	max-width: 950px
 }
 
-.home2016 .cbi-footer~.pagecode {
+.home2016 .cgem-footer~.pagecode {
 	display: none
 }
 
-.home2016 .cbi-footer p.title {
+.home2016 .cgem-footer p.title {
 	font: 18px DINNextLTPro-Regular, arial, sans-serif;
 	margin: 1em 0 .7em
 }
 
 @media(max-width:991px) {
-	.home2016 .cbi-footer .container {
+	.home2016 .cgem-footer .container {
 		width: 730px;
 		max-width: 730px
 	}
 }
 
 @media(max-width:750px) {
-	.home2016 .cbi-footer .container {
+	.home2016 .cgem-footer .container {
 		width: 100%;
 		padding: 0 10px
 	}
@@ -111,7 +111,7 @@ a {
 }
 
 .home2016 header,
-.home2016 .cbi-body {
+.home2016 .cgem-body {
 	background: #fff
 }
 
@@ -125,13 +125,13 @@ a {
 	position: relative
 }
 
-.home2016 .cbi-body {
-	font-family: 'opens', arial, sans-serif;
+.home2016 .cgem-body {
+	font-family: 'arial', arial, sans-serif;
 	font-size: 15px;
 	line-height: 1.5em
 }
 
-.home2016 .cbi-body a {
+.home2016 .cgem-body a {
 	color: #0071cd
 }
 
@@ -610,13 +610,13 @@ a {
 	margin: -15px 0 50px
 }
 
-.home2016 .cbi-body--home {
+.home2016 .cgem-body--home {
 	padding: 0 0 100px
 }
 
-.home2016 .cbi-body--home .cbi-content {
+.home2016 .cgem-body--home .cgem-content {
 	padding: 0;
-	box-shadow: none
+	box-shadow: none;
 }
 
 .home2016 .bottom {
@@ -802,13 +802,13 @@ a {
 	}
 }
 
-nav.cbi {
+nav.cgem {
 	background: #082559;
 	display: block;
 	z-index: 50
 }
 
-nav.cbi ul {
+nav.cgem ul {
 	font-size: 0;
 	text-align: justify;
 	-ms-text-justify: distribute-all-lines;
@@ -820,11 +820,11 @@ nav.cbi ul {
 	display: block
 }
 
-.home2016 nav.cbi ul {
+.home2016 nav.cgem ul {
 	max-width: 920px
 }
 
-nav.cbi ul li {
+nav.cgem ul li {
 	font: 16px/59px DINNextLTPro-Regular, arial, sans-serif;
 	text-align: left;
 	text-transform: uppercase;
@@ -834,26 +834,26 @@ nav.cbi ul li {
 	display: inline-block
 }
 
-nav.cbi ul li.level1 {
+nav.cgem ul li.level1 {
 	cursor: pointer
 }
 
-nav.cbi ul li.inactive {
+nav.cgem ul li.inactive {
 	pointer-events: none
 }
 
-nav.cbi ul li.search {
+nav.cgem ul li.search {
 	vertical-align: bottom
 }
 
-nav.cbi ul li.search a {
+nav.cgem ul li.search a {
 	background: url(../images/ico/search-button-white13e1.png?20190214043432) no-repeat center left;
 	width: 22px;
 	height: 100%;
 	padding: 0
 }
 
-nav.cbi ul li.stretcher {
+nav.cgem ul li.stretcher {
 	width: 100%;
 	height: 0;
 	display: inline-block;
@@ -861,14 +861,14 @@ nav.cbi ul li.stretcher {
 	line-height: 0
 }
 
-nav.cbi ul li a {
+nav.cgem ul li a {
 	text-decoration: none;
 	color: #fff;
 	display: block;
 	position: relative
 }
 
-nav.cbi ul li a:after {
+nav.cgem ul li a:after {
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -880,47 +880,47 @@ nav.cbi ul li a:after {
 	left: -25px
 }
 
-nav.cbi ul li.level1:nth-child(1) a:after {
+nav.cgem ul li.level1:nth-child(1) a:after {
 	z-index: 500
 }
 
-nav.cbi ul li.level1:nth-child(2) a:after {
+nav.cgem ul li.level1:nth-child(2) a:after {
 	z-index: 1000
 }
 
-nav.cbi ul li.level1:nth-child(3) a:after {
+nav.cgem ul li.level1:nth-child(3) a:after {
 	z-index: 1500
 }
 
-nav.cbi ul li.level1:nth-child(4) a:after {
+nav.cgem ul li.level1:nth-child(4) a:after {
 	z-index: 2000
 }
 
-nav.cbi ul li.level1:nth-child(5) a:after {
+nav.cgem ul li.level1:nth-child(5) a:after {
 	z-index: 2500
 }
 
-nav.cbi ul li.level1:nth-child(6) a:after {
+nav.cgem ul li.level1:nth-child(6) a:after {
 	z-index: 3000
 }
 
-nav.cbi ul li.level1:nth-child(7) a:after {
+nav.cgem ul li.level1:nth-child(7) a:after {
 	z-index: 3500
 }
 
-nav.cbi ul li.level1:nth-child(8) a:after {
+nav.cgem ul li.level1:nth-child(8) a:after {
 	z-index: 4000
 }
 
-nav.cbi ul li.level1:nth-child(9) a:after {
+nav.cgem ul li.level1:nth-child(9) a:after {
 	z-index: 4500
 }
 
-nav.cbi ul li.search a:after {
+nav.cgem ul li.search a:after {
 	z-index: 5000
 }
 
-nav.cbi>ul>li .triangle {
+nav.cgem>ul>li .triangle {
 	width: 0;
 	height: 0;
 	margin: 0 -10px 0 0;
@@ -936,24 +936,24 @@ nav.cbi>ul>li .triangle {
 	transition: opacity .4s ease
 }
 
-nav.cbi>ul>li.level1.active .triangle,
-nav.cbi>ul>li.search.active .triangle {
+nav.cgem>ul>li.level1.active .triangle,
+nav.cgem>ul>li.search.active .triangle {
 	opacity: 1
 }
 
-nav.cbi>ul>li.search .triangle {
+nav.cgem>ul>li.search .triangle {
 	margin: 0;
 	left: 0;
 	bottom: 0
 }
 
-nav.cbi>ul>li.insight-and-analysis .triangle,
-nav.cbi>ul>li.executive-development .triangle,
-nav.cbi>ul>li.contact .triangle {
+nav.cgem>ul>li.insight-and-analysis .triangle,
+nav.cgem>ul>li.executive-development .triangle,
+nav.cgem>ul>li.contact .triangle {
 	display: none
 }
 
-nav.cbi .subnav {
+nav.cgem .subnav {
 	background: #fff;
 	width: 100%;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
@@ -966,37 +966,37 @@ nav.cbi .subnav {
 	cursor: default
 }
 
-nav.cbi .subnav>div {
+nav.cgem .subnav>div {
 	width: 100%;
 	padding: 30px 25px 25px;
 	border-top: 10px solid #0071cf
 }
 
-nav.cbi .subnav table {
+nav.cgem .subnav table {
 	width: 100%;
 	height: 100%
 }
 
-nav.cbi .subnav table td {
+nav.cgem .subnav table td {
 	vertical-align: top
 }
 
-nav.cbi .subnav table td table {
+nav.cgem .subnav table td table {
 	table-layout: fixed;
 	height: auto
 }
 
-nav.cbi .subnav table td table.biz tr~tr td {
+nav.cgem .subnav table td table.biz tr~tr td {
 	padding: 4px 0 0
 }
 
-nav.cbi .subnav ul {
+nav.cgem .subnav ul {
 	margin: 0;
 	padding: 0
 }
 
-nav.cbi .subnav ul li {
-	font: 15px/1.5em 'opens', arial, sans-serif;
+nav.cgem .subnav ul li {
+	font: 15px/1.5em 'arial', arial, sans-serif;
 	text-transform: none;
 	list-style-type: none;
 	height: auto;
@@ -1005,135 +1005,135 @@ nav.cbi .subnav ul li {
 	vertical-align: top
 }
 
-nav.cbi .subnav .nav ul.top {
+nav.cgem .subnav .nav ul.top {
 	margin: -10px 0 -5px
 }
 
-nav.cbi .subnav .nav ul.top li:first-child a {
+nav.cgem .subnav .nav ul.top li:first-child a {
 	background: url(../images/orange-button13e1.png?20190214043432) top right no-repeat;
 	padding: 10px 55px 13px 0;
 	display: inline-block
 }
 
-nav.cbi .subnav .nav ul li ul {
+nav.cgem .subnav .nav ul li ul {
 	padding-top: 5px
 }
 
-nav.cbi .subnav a {
+nav.cgem .subnav a {
 	padding-right: 0
 }
 
-nav.cbi .subnav .title,
-nav.cbi .news .subnav .title {
+nav.cgem .subnav .title,
+nav.cgem .news .subnav .title {
 	font: 18px/1em DINNextLTPro-Medium, arial, sans-serif;
 	text-transform: none;
 	margin: 0;
 	padding: 0 0 20px
 }
 
-nav.cbi .subnav .nav .title {
+nav.cgem .subnav .nav .title {
 	padding: 0 0 10px
 }
 
-nav.cbi .subnav .nav {
+nav.cgem .subnav .nav {
 	padding: 0 25px 0 0
 }
 
-nav.cbi .subnav .nav.wide {
+nav.cgem .subnav .nav.wide {
 	width: 65%
 }
 
-nav.cbi li:not(.business-issues) .subnav .nav ul {
+nav.cgem li:not(.business-issues) .subnav .nav ul {
 	top: -2px
 }
 
-nav.cbi .subnav .nav.wide ul li {
+nav.cgem .subnav .nav.wide ul li {
 	padding-right: 12.5px
 }
 
-nav.cbi .subnav .nav ul li {
+nav.cgem .subnav .nav ul li {
 	width: 100%;
 	display: block
 }
 
-nav.cbi .subnav .nav ul li a {
+nav.cgem .subnav .nav ul li a {
 	color: #000
 }
 
-nav.cbi .subnav .nav ul li a:hover,
-nav.cbi .subnav ul li.more a {
+nav.cgem .subnav .nav ul li a:hover,
+nav.cgem .subnav ul li.more a {
 	color: #0071cf
 }
 
-nav.cbi .subnav .featured {
+nav.cgem .subnav .featured {
 	padding-left: 25px;
 	border-left: 1px solid #aaa;
 	width: 35%
 }
 
-nav.cbi .subnav .featured.double {
+nav.cgem .subnav .featured.double {
 	width: 70%
 }
 
-nav.cbi .subnav .featured.narrow li {
+nav.cgem .subnav .featured.narrow li {
 	width: 100%;
 	padding: 0
 }
 
-nav.cbi .subnav .featured.narrow li~li {
+nav.cgem .subnav .featured.narrow li~li {
 	display: none
 }
 
-nav.cbi .subnav .featured .summary p,
-nav.cbi .subnav .featured .summary a {
+nav.cgem .subnav .featured .summary p,
+nav.cgem .subnav .featured .summary a {
 	display: inline
 }
 
-nav.cbi .subnav .featured li {
+nav.cgem .subnav .featured li {
 	width: 50%;
 	padding: 0 12.5px 0 0
 }
 
-nav.cbi .subnav .featured.single li {
+nav.cgem .subnav .featured.single li {
 	width: 100%;
 	padding: 0
 }
 
-nav.cbi .subnav .featured li~li {
+nav.cgem .subnav .featured li~li {
 	padding: 0 0 0 12.5px
 }
 
-nav.cbi .subnav .featured li~li~li {
+nav.cgem .subnav .featured li~li~li {
 	display: none
 }
 
-nav.cbi .subnav .featured li p {
+nav.cgem .subnav .featured li p {
 	overflow-x: hidden
 }
 
-nav.cbi .subnav .featured li a {
+nav.cgem .subnav .featured li a {
 	color: #0071cf
 }
 
-nav.cbi .subnav .featured li img {
+nav.cgem .subnav .featured li img {
 	background: center center no-repeat #ddd;
 	background-size: cover;
 	width: 100%;
 	max-width: 100%
 }
 
-nav.cbi .search .subnav form {
+nav.cgem .search .subnav form {
 	line-height: 1em;
 	width: 100%;
 	display: table
 }
 
-nav.cbi .search .subnav form .form-control {
+nav.cgem .search .subnav form .form-control {
 	width: 100%;
 	display: table-cell
 }
 
-nav.cbi .search .subnav form .input-group-btn {
+nav.cgem .search .subnav form .input-group-btn {
 	width: 5%;
 	padding-left: 25px;
 	display: table-cell
@@ -1146,35 +1146,35 @@ nav.cbi .search .subnav form .input-group-btn {
 }
 
 @media(max-width:991px) {
-	nav.cbi ul {
+	nav.cgem ul {
 		max-width: 750px
 	}
 
-	.home2016 nav.cbi ul {
+	.home2016 nav.cgem ul {
 		max-width: 700px
 	}
 
-	nav.cbi ul li.level1 {
+	nav.cgem ul li.level1 {
 		font-size: 14px
 	}
 
-	nav.cbi ul li a:after {
+	nav.cgem ul li a:after {
 		padding: 0 10px;
 		left: -10px
 	}
 }
 
 @media(max-width:767px) {
-	nav.cbi {
+	nav.cgem {
 		display: none
 	}
 }
 
-.home2017 .cbi-body {
+.home2017 .cgem-body {
 	padding: 0
 }
 
-.home2017 .cbi-body .container {
+.home2017 .cgem-body .container {
 	text-align: center
 }
 
@@ -1182,11 +1182,11 @@ nav.cbi .search .subnav form .input-group-btn {
 	font: normal 26px/24px "DINNextLTPro-Regular", arial, sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #aaa;
 	margin: 0 0 25px
 }
 
-.home2017 .container .cbi-content .feed~p.title {
+.home2017 .container .cgem-content .feed~p.title {
 	font: 16px 'DINNextLTPro-Bold', arial, sans-serif;
 	text-align: center;
 	text-transform: none;
@@ -1245,7 +1245,7 @@ nav.cbi .search .subnav form .input-group-btn {
 	margin: 0 25px
 }
 
-.home2017 .cbi-body-home {
+.home2017 .cgem-body-home {
 	padding: 0
 }
 
@@ -1259,14 +1259,14 @@ nav.cbi .search .subnav form .input-group-btn {
 }
 
 .home2017 .topics ul,
-.home2017 .topics .cbi-content ul {
+.home2017 .topics .cgem-content ul {
 	font-size: 0;
 	margin: 40px 0 0;
 	padding: 0
 }
 
 .home2017 .topics ul li,
-.home2017 .topics .cbi-content ul li {
+.home2017 .topics .cgem-content ul li {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -1484,7 +1484,7 @@ nav.cbi .search .subnav form .input-group-btn {
 	padding: 70px 25px 60px
 }
 
-.home2017 .coverage2017 .cbi-content {
+.home2017 .coverage2017 .cgem-content {
 	background: 0
 }
 
@@ -1585,7 +1585,7 @@ nav.cbi .search .subnav form .input-group-btn {
 	padding: 70px 25px
 }
 
-.home2017 .membership2017 .cbi-content {
+.home2017 .membership2017 .cgem-content {
 	background: 0
 }
 
@@ -1683,13 +1683,35 @@ nav.cbi .search .subnav form .input-group-btn {
 	padding: 70px 25px 60px
 }
 
-@media(min-width:750px) {
+@media(min-width: 991px) {
+
+	.home2017 .news2017 .row,
+	.home2017 .topics .row,
+	.home2017 .membership2017 .row,
+	.home2017 .bv2017 .row,
+	.sub2016 .bv2017 .row {
+		max-width: 970px
+	}
+}
+
+@media(max-width: 991px) {
+
+	.home2017 .news2017 .row,
+	.home2017 .topics .row,
+	.home2017 .membership2017 .row,
+	.home2017 .bv2017 .row,
+	.sub2016 .bv2017 .row {
+		max-width: 750px
+	}
+}
+
+@media(min-width: 750px) {
 	.home2017 .news2017 ul.featured>li .date {
 		margin-top: 0
 	}
 }
 
-@media(min-width:0) and (max-width:750px) {
+@media(min-width: 0) and (max-width:750px) {
 	.home2017 .cbi-content {
 		margin: 0
 	}
@@ -1752,63 +1774,155 @@ nav.cbi .search .subnav form .input-group-btn {
 	.home2017 .membership2017 ul li div {
 		padding: 0
 	}
+
+	.home2017 .bv2017 h2 span,
+	.sub2016 .bv2017 h2 span {
+		font-size: 19px;
+		margin: 20px auto 30px;
+		display: block
+	}
+
+	.home2017 .bv2017 h2 span.logo,
+	.sub2016 .bv2017 h2 span.logo {
+		margin: 0 auto 30px;
+		display: block;
+		top: 0
+	}
+
+	.home2017 .bv2017 ul li~li,
+	.sub2016 .bv2017 ul li~li,
+	.home2017 .events2017 ul li~li,
+	.home2017 .ia2017 ul li~li {
+		display: none
+	}
 }
 
-.cbi-body.takeover {
+@media(min-width:750px) {
+	.home2017 .news2017 ul.featured>li .date {
+		margin-top: 0
+	}
+}
+
+@media(min-width:0) and (max-width:750px) {
+	.home2017 .cgem-content {
+		margin: 0
+	}
+
+	.home2017 ul.feed>li:nth-child(3n+1),
+	.home2017 ul.feed>li:nth-child(3n+2),
+	.home2017 ul.feed>li:nth-child(3n) {
+		width: 100%;
+		margin: 0 0 25px;
+		padding: 0
+	}
+
+	.home2017 .news2017 ul.featured li .image,
+	.home2017 .news2017 ul.featured li .text {
+		width: 100%;
+		padding: 0;
+		display: block
+	}
+
+	.home2017 .news2017 ul.feed {
+		display: none
+	}
+
+	.home2017 .topics ul li~li,
+	.home2017 .topics .cgem-content ul li~li {
+		margin-top: 25px
+	}
+
+	.home2017 .topics ul.one li,
+	.home2017 .topics ul.two li,
+	.home2017 .topics ul.three li {
+		width: 100%
+	}
+
+	.home2017 .topics ul.two li:nth-child(2n+1),
+	.home2017 .topics ul.two li:nth-child(2n),
+	.home2017 .topics ul.three li:nth-child(3n+1),
+	.home2017 .topics ul.three li:nth-child(3n+2),
+	.home2017 .topics ul.three li:nth-child(3n) {
+		padding: 0
+	}
+
+	.home2017 .topics ul li img {
+		display: none
+	}
+
+	.home2017 .promotions2017 .promotions {
+		margin: 0
+	}
+
+	.home2017 .membership2017 ul li {
+		width: 100%;
+		margin: 0
+	}
+
+	.home2017 .membership2017 ul li~li {
+		display: none
+	}
+
+	.home2017 .membership2017 ul li div {
+		padding: 0
+	}
+}
+
+.cgem-body.takeover {
 	background: top center no-repeat;
 	background-size: 100%
 }
 
-.home2016 .cbi-body.takeover .homebanner {
+.home2016 .cgem-body.takeover .homebanner {
 	background: 0;
 	max-height: 385px;
 	margin: 0 auto
 }
 
-#homepage.home2016 .cbi-body.takeover .homebanner img {
+#homepage.home2016 .cgem-body.takeover .homebanner img {
 	margin: 0
 }
 
-.home2017 .cbi-body.takeover .container {
+.home2017 .cgem-body.takeover .container {
 	background: #fff
 }
 
-.home2017 .cbi-body.takeover .membership2017,
-.home2017 .cbi-body.takeover .bv2017 {
+.home2017 .cgem-body.takeover .membership2017,
+.home2017 .cgem-body.takeover .bv2017 {
 	max-width: 970px
 }
 
-.home2017 .cbi-body.takeover .membership2017 {
+.home2017 .cgem-body.takeover .membership2017 {
 	background: #0071cd
 }
 
-.home2017 .cbi-body.takeover .bv2017 {
+.home2017 .cgem-body.takeover .bv2017 {
 	background: #000
 }
 
 @media(max-width:750px) {
-	.cbi-body.takeover {
+	.cgem-body.takeover {
 		background-size: 100% auto
 	}
 }
 
 @media(min-width:992px) {
-	.home2016 .cbi-body.takeover .homebanner {
+	.home2016 .cgem-body.takeover .homebanner {
 		max-width: 970px
 	}
 }
 
 @media(max-width:991px) {
 
-	.home2016 .cbi-body.takeover .homebanner,
-	.home2017 .cbi-body.takeover .membership2017,
-	.home2017 .cbi-body.takeover .bv2017 {
+	.home2016 .cgem-body.takeover .homebanner,
+	.home2017 .cgem-body.takeover .membership2017,
+	.home2017 .cgem-body.takeover .bv2017 {
 		max-width: 750px
 	}
 }
 
 @media(min-width:751px) {
-	.cbi-body.takeover {
+	.cgem-body.takeover {
 		background-attachment: fixed;
 		background-size: cover
 	}
@@ -1826,7 +1940,7 @@ nav.cbi .search .subnav form .input-group-btn {
 }
 
 .home2016 .homebanner .disable {
-	font: bold 10px 'opens', arial;
+	font: bold 10px 'arial';
 	text-transform: uppercase;
 	padding: 15px;
 	opacity: .5;
@@ -1954,18 +2068,18 @@ nav.cbi .search .subnav form .input-group-btn {
 	top: 3px
 }
 
-.cbi-removeAuthor {
+.cgem-removeAuthor {
 	margin-left: -26px !important
 }
 
-.cbi-body a.blue,
-.cbi-body span.blue,
-.cbi-body a.teal,
-.cbi-body span.teal,
-.cbi-body a.pink,
-.cbi-body span.pink,
-.cbi-body a.white,
-.cbi-body span.white {
+.cgem-body a.blue,
+.cgem-body span.blue,
+.cgem-body a.teal,
+.cgem-body span.teal,
+.cgem-body a.pink,
+.cgem-body span.pink,
+.cgem-body a.white,
+.cgem-body span.white {
 	font: 17px/1.25em DINNextLTPro-Regular, arial, sans-serif;
 	text-align: center;
 	text-decoration: none;
@@ -1979,23 +2093,23 @@ nav.cbi .search .subnav form .input-group-btn {
 	display: inline-block
 }
 
-.cbi-body a.teal,
-.cbi-body span.teal {
+.cgem-body a.teal,
+.cgem-body span.teal {
 	background: #00c1d5
 }
 
-.cbi-body a.pink,
-.cbi-body span.pink {
+.cgem-body a.pink,
+.cgem-body span.pink {
 	background: #c7307c
 }
 
-.cbi-body a.white,
-.cbi-body span.white {
+.cgem-body a.white,
+.cgem-body span.white {
 	background: #fff;
 	color: #0071cd
 }
 
-.home2017 .cbi-body a.blue {
+.home2017 .cgem-body a.blue {
 	font-size: 15px;
 	background: #fff;
 	color: #0071cd;
@@ -2003,12 +2117,21 @@ nav.cbi .search .subnav form .input-group-btn {
 	padding: 11px 40px 9px
 }
 
-.home2017 .cbi-body a.blue:hover {
+#homepage>div.cgem-body.cgem-body--home>div.container.bv2017>div>section>p:nth-child(4)>a {
+	font-size: 15px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #0071cd;
+	padding: 11px 40px 9px
+}
+
+.home2017 .cgem-body a.blue:hover,
+#homepage>div.cgem-body.cgem-body--home>div.container.bv2017>div>section>p:nth-child(4)>a:hover {
 	background: #0071cd;
 	color: #fff
 }
 
-.home2017 .cbi-body a.white {
+.home2017 .cgem-body a.white {
 	font-size: 15px;
 	padding: 11px 40px 9px
 }
@@ -2018,19 +2141,19 @@ body[data-page="business-issues"] .main:empty {
 	display: none !important
 }
 
-.cbi-content {
+.cgem-content {
 	background-color: #FFF;
 	padding: 0 15px 2em 15px;
 	box-shadow: 2px 2px 3px #999;
 	z-index: 1
 }
 
-.cbi-content .cbi-content__bodyCopy ul {
+.cgem-content .cgem-content__bodyCopy ul {
 	list-style: none;
 	-webkit-padding-start: 20px
 }
 
-.cbi-content .cbi-content__bodyCopy ul li:before {
+.cgem-content .cgem-content__bodyCopy ul li:before {
 	content: "\2022";
 	font-size: 150%;
 	line-height: 0;
@@ -2039,109 +2162,109 @@ body[data-page="business-issues"] .main:empty {
 	padding-right: 10px
 }
 
-.cbi-pageFooter__social ul {
+.cgem-pageFooter__social ul {
 	list-style: none;
 	margin-left: 0;
 	-webkit-padding-start: 0;
 	float: right
 }
 
-.cbi-pageFooter__social ul li {
+.cgem-pageFooter__social ul li {
 	padding-left: 10px;
 	float: left
 }
 
-.cbi-pageFooter__social ul li p {
+.cgem-pageFooter__social ul li p {
 	float: left;
 	line-height: 32px;
 	color: #06265a
 }
 
-.cbi-pageFooter__social span {
+.cgem-pageFooter__social span {
 	float: left
 }
 
-.cbi-content__title {
+.cgem-content__title {
 	padding-left: 0;
 	font-size: 34px;
 	float: none
 }
 
-.cbi-content {
+.cgem-content {
 	line-height: 25px
 }
 
-.cbi-content ul,
-.cbi-content ol,
-.cbi-content p {
+.cgem-content ul,
+.cgem-content ol,
+.cgem-content p {
 	margin-bottom: 15px
 }
 
-.cbi-content figure[style*="float:left"] {
+.cgem-content figure[style*="float:left"] {
 	margin: 5px 15px 0 0
 }
 
-.cbi-content figure[style*="float:right"] {
+.cgem-content figure[style*="float:right"] {
 	margin: 5px 0 0 15px
 }
 
-.cbi-content figcaption {
+.cgem-content figcaption {
 	font-size: .8em;
 	line-height: 1.5em;
 	text-align: center;
 	padding: 10px
 }
 
-.cbi-content figure img {
+.cgem-content figure img {
 	padding: 10px 10px 0 10px
 }
 
-.cbi-content img {
+.cgem-content img {
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto 15px
 }
 
-.cbi-content img.image-left,
-.cbi-content img[style*="left"] {
+.cgem-content img.image-left,
+.cgem-content img[style*="left"] {
 	margin: 5px 20px 10px 0;
 	float: left
 }
 
-.cbi-content img.image-right,
-.cbi-content img[style*="right"] {
+.cgem-content img.image-right,
+.cgem-content img[style*="right"] {
 	margin: 5px 0 10px 20px;
 	float: right
 }
 
-.cbi-content aside img {
+.cgem-content aside img {
 	margin: 0 auto
 }
 
-.cbi-body iframe {
+.cgem-body iframe {
 	max-width: 100%;
 	border: 0;
 	outline: 0
 }
 
-.cbi-body iframe[id*=twitter] {
+.cgem-body iframe[id*=twitter] {
 	width: 100% !important
 }
 
 @media(max-width:767px) {
-	body .cbi-content__image {
+	body .cgem-content__image {
 		margin: 15px -15px
 	}
 
-	.cbi-content {
+	.cgem-content {
 		margin-bottom: 25px
 	}
 
-	.cbi-leftNav {
+	.cgem-leftNav {
 		display: none !important
 	}
 
-	.cbi-leftCol {
+	.cgem-leftCol {
 		border: none !important;
 		background: #fff !important
 	}
@@ -2175,14 +2298,14 @@ body[data-page="business-issues"] .main:empty {
 }
 
 .dsmSquares h1,
-.cbi-content .dsmSquares h1 {
+.cgem-content .dsmSquares h1 {
 	color: #2c70b8;
 	font: italic 32px georgia, times, serif;
 	padding: 0 0 25px
 }
 
 .dsmSquares h2,
-.cbi-content .dsmSquares h2 {
+.cgem-content .dsmSquares h2 {
 	font: normal 26px/1.25em DINNextLTPro-Light, arial, sans-serif;
 	color: #585857
 }
@@ -2723,7 +2846,7 @@ button {
 }
 
 @media(max-width:767px) {
-	.empty .cbi-body {
+	.empty .cgem-body {
 		overflow-x: visible !important
 	}
 }
@@ -2827,25 +2950,25 @@ button {
 	}
 }
 
-.cbi-featured-content-list {
+.cgem-featured-content-list {
 	padding: 15px 15px 0 15px
 }
 
-.cbi-featured-content-list>div {
+.cgem-featured-content-list>div {
 	padding: 0
 }
 
-.cbi-featured-content__image img {
+.cgem-featured-content__image img {
 	width: 100%
 }
 
-.cbi-featured-content__details {
+.cgem-featured-content__details {
 	position: absolute;
 	bottom: 0;
 	width: 100%
 }
 
-.cbi-featured-content .cbi-featured-content__title {
+.cgem-featured-content .cgem-featured-content__title {
 	padding: 5px 10px 4px 10px;
 	margin: 0;
 	font-size: 2rem;
@@ -2857,60 +2980,60 @@ button {
 }
 
 @media(max-width:991px) {
-	.cbi-featured-content .cbi-featured-content__title {
+	.cgem-featured-content .cgem-featured-content__title {
 		font-size: 1.4rem;
 		line-height: 1.4
 	}
 }
 
-.cbi-featured-content>a {
+.cgem-featured-content>a {
 	display: block;
 	position: relative
 }
 
-.cbi-featured-content-1 .cbi-featured-content__title {
+.cgem-featured-content-1 .cgem-featured-content__title {
 	background-color: #00c1d5
 }
 
-.cbi-featured-content-2 .cbi-featured-content__title {
+.cgem-featured-content-2 .cgem-featured-content__title {
 	background-color: #ff671f
 }
 
-.cbi-featured-content-3 .cbi-featured-content__title {
+.cgem-featured-content-3 .cgem-featured-content__title {
 	background-color: #97d700
 }
 
 @media(min-width:768px) {
-	.cbi-featured-content {
+	.cgem-featured-content {
 		min-height: 177px
 	}
 
-	.cbi-featured-content-1 {
+	.cgem-featured-content-1 {
 		padding-right: 10px !important
 	}
 
-	.cbi-featured-content-2 {
+	.cgem-featured-content-2 {
 		padding-left: 5px !important;
 		padding-right: 5px !important
 	}
 
-	.cbi-featured-content-3 {
+	.cgem-featured-content-3 {
 		padding-left: 10px !important
 	}
 }
 
 @media(min-width:991px) {
-	.cbi-featured-content {
+	.cgem-featured-content {
 		min-height: 233px
 	}
 }
 
 @media(max-width:767px) {
-	.cbi-featured-content {
+	.cgem-featured-content {
 		margin-bottom: 15px
 	}
 
-	.cbi-featured-content-3 {
+	.cgem-featured-content-3 {
 		margin-bottom: 0
 	}
 }
@@ -2979,7 +3102,7 @@ table.filtered select {
 
 .findmyfinance .start ul,
 .findmyfinance .question ul,
-.sub2016 section.cbi-content .findmyfinance ul {
+.sub2016 section.cgem-content .findmyfinance ul {
 	font: 18px DINNextLTPro-Regular, arial, sans-serif;
 	width: 100%;
 	margin: 0;
@@ -3047,25 +3170,25 @@ table.filtered select {
 }
 
 
-.cbi-folder>div>.cbi-list-item {
+.cgem-folder>div>.cgem-list-item {
 	margin-bottom: 20px
 }
 
-.cbi-list-item__title a {
+.cgem-list-item__title a {
 	font-size: 2rem;
 	text-decoration: none
 }
 
-.cbi-list-item__image {
+.cgem-list-item__image {
 	padding-right: 0;
 	float: left
 }
 
-.cbi-list-item__image img {
+.cgem-list-item__image img {
 	width: 100%
 }
 
-.cbi-folder .cbi-list-item__date {
+.cgem-folder .cgem-list-item__date {
 	color: #666;
 	font-weight: bold;
 	font-size: 15px;
@@ -3073,23 +3196,23 @@ table.filtered select {
 }
 
 @media(min-width:400px) {
-	.cbi-list-item__image {
+	.cgem-list-item__image {
 		padding-right: 15px
 	}
 }
 
 @media(max-width:399px) {
 
-	.cbi-list-item__image,
-	.cbi-list-item__title,
-	.cbi-list-item__date,
-	.cbi-list-item__summary {
+	.cgem-list-item__image,
+	.cgem-list-item__title,
+	.cgem-list-item__date,
+	.cgem-list-item__summary {
 		width: 100%
 	}
 }
 
-.cbi-footer {
-	font-family: 'opens';
+.cgem-footer {
+	font-family: 'arial';
 	color: #a5a6a6;
 	padding: 20px 15px;
 	background-color: #082559;
@@ -3097,30 +3220,30 @@ table.filtered select {
 	z-index: 0
 }
 
-.cbi-footer>ul {
+.cgem-footer>ul {
 	margin-left: -5px;
 	list-style: none;
 	padding: 0
 }
 
-.cbi-footer a {
+.cgem-footer a {
 	color: #a5a6a6;
 	text-decoration: none
 }
 
-.cbi-footer a:hover {
+.cgem-footer a:hover {
 	text-decoration: underline
 }
 
-.cbi-footer h4~p~p {
+.cgem-footer h4~p~p {
 	display: none
 }
 
-.cbi-footer>ul {
+.cgem-footer>ul {
 	font-size: 1.1rem
 }
 
-.cbi-footer>ul>li {
+.cgem-footer>ul>li {
 	display: inline;
 	padding-left: 5px;
 	margin-right: 5px
@@ -3128,15 +3251,15 @@ table.filtered select {
 
 @media(min-width:992px) {
 
-	.cbi-footer>ul {
+	.cgem-footer>ul {
 		float: right;
 		margin-left: 0;
 		margin-right: -5px
 	}
 }
 
-.cbi-footer,
-.cbi-footer a {
+.cgem-footer,
+.cgem-footer a {
 	color: #fff
 }
 
@@ -3194,7 +3317,7 @@ table.filtered select {
 }
 
 .socialIcons li i.fa-audioboom {
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/businessvoice/ab-white.png?20190214043432) center bottom no-repeat;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/businessvoice/ab-white.png?20190214043432) center bottom no-repeat;
 	background-size: contain;
 	width: 30px;
 	height: 30px;
@@ -3202,17 +3325,17 @@ table.filtered select {
 	top: 3px
 }
 
-.cbi-footer .searchForm {
+.cgem-footer .searchForm {
 	background: #fff;
 	margin-bottom: 20px
 }
 
-.cbi-footer .searchForm label {
+.cgem-footer .searchForm label {
 	position: absolute;
 	left: -9999px
 }
 
-.cbi-footer .searchForm input[type=text] {
+.cgem-footer .searchForm input[type=text] {
 	background: 0;
 	color: #082559;
 	height: 40px;
@@ -3221,29 +3344,29 @@ table.filtered select {
 	box-shadow: none
 }
 
-.cbi-footer .searchForm .btn {
+.cgem-footer .searchForm .btn {
 	margin: 0;
 	padding: 0;
 	border-radius: 0
 }
 
-.cbi-footer .searchForm .input-group-btn {
+.cgem-footer .searchForm .input-group-btn {
 	padding: 0
 }
 
-.cbi-footer .searchForm button {
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/search-button-white.gif?20190214043432) center center no-repeat;
+.cgem-footer .searchForm button {
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/search-button-white.gif?20190214043432) center center no-repeat;
 	width: 40px;
 	height: 40px;
 	padding: 0;
 	border: 0
 }
 
-.cbi-footer .searchForm button span {
+.cgem-footer .searchForm button span {
 	display: none
 }
 
-.cbi-footer-logo {
+.cgem-footer-logo {
 	margin-top: 15px
 }
 
@@ -3251,21 +3374,21 @@ table.filtered select {
 	display: none
 }
 
-.cbi-content img.headerimage {
+.cgem-content img.headerimage {
 	display: none
 }
 
-.cbi-content__image.gifheader {
+.cgem-content__image.gifheader {
 	background: center center no-repeat #ccc;
 	background-size: cover
 }
 
-.cbi-content__image img {
+.cgem-content__image img {
 	-webkit-transition: opacity .6s ease;
 	transition: opacity .6s ease
 }
 
-.cbi-content__image.gifheader img {
+.cgem-content__image.gifheader img {
 	opacity: 0
 }
 
@@ -3388,7 +3511,7 @@ header>.container.white {
 	max-height: none !important
 }
 
-.cbi-crumbtrail {
+.cgem-crumbtrail {
 	background: 0
 }
 
@@ -3415,7 +3538,7 @@ header .search form {
 }
 
 header .search input {
-	font: 15px 'opens', arial;
+	font: 15px 'arial';
 	text-align: right;
 	text-transform: uppercase;
 	color: #0071cd;
@@ -3443,7 +3566,7 @@ header .search .input-group-btn {
 
 header .search button,
 header .search button:active {
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/search-button-white.gif?20190214043432) top left no-repeat;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/search-button-white.gif?20190214043432) top left no-repeat;
 	width: 37px;
 	height: 37px;
 	padding: 0;
@@ -3459,7 +3582,7 @@ header .search button {
 }
 
 header .search.active button {
-	background-image: url(/cbi-prod/includes/themes/mura-cbi-theme/images/search-button-blue.gif?20190214043432)
+	background-image: url(/cgem-prod/includes/themes/mura-cgem-theme/images/search-button-blue.gif?20190214043432)
 }
 
 header .bv {
@@ -3519,7 +3642,7 @@ header .bv {
 }
 
 #homeBtn {
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/homeBtn-bg.png) no-repeat 0 0
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/homeBtn-bg.png) no-repeat 0 0
 }
 
 #hLeft {
@@ -3542,19 +3665,19 @@ header .container {
 }
 
 .toggleMenu#closedMenu,
-.cbi-header-search-icon {
+.cgem-header-search-icon {
 	padding-right: 22px;
 	padding-top: 7px;
 	padding-bottom: 8px
 }
 
-.cbi-header-search-icon {
+.cgem-header-search-icon {
 	padding-top: 8px
 }
 
-.cbi-BuVo-btn {
+.cgem-BuVo-btn {
 	font: 14px/40px 'millbolditalic', georgia, times, serif;
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/blue-button.png?20190214043432) top right no-repeat;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/blue-button.png?20190214043432) top right no-repeat;
 	color: #3a3b3b;
 	width: 185px;
 	height: 45px;
@@ -3566,35 +3689,35 @@ header .container {
 	right: -10px
 }
 
-.cbi-BuVo-btn:active,
-.cbi-BuVo-btn:link,
-.cbi-BuVo-btn:hover {
+.cgem-BuVo-btn:active,
+.cgem-BuVo-btn:link,
+.cgem-BuVo-btn:hover {
 	text-decoration: none;
 	color: #3a3b3b
 }
 
-.cbi-BuVo-btn {
+.cgem-BuVo-btn {
 	display: none
 }
 
 @media(min-width:768px) {
 
 	.toggleMenu#closedMenu,
-	.cbi-header-search-icon {
+	.cgem-header-search-icon {
 		display: none
 	}
 
-	.cbi-BuVo-btn {
+	.cgem-BuVo-btn {
 		display: inline !important
 	}
 }
 
-.cbi-site-logo {
+.cgem-site-logo {
 	position: absolute;
 	top: 11px
 }
 
-.cbi-header-search-icon {
+.cgem-header-search-icon {
 	padding-left: 22px;
 	padding-right: 11px
 }
@@ -3729,11 +3852,11 @@ header .container {
 }
 
 .nav.mobile li.hover>.more {
-	background-image: url(/cbi-prod/includes/themes/mura-cbi-theme/images/chevron-up.png?20190214043432)
+	background-image: url(/cgem-prod/includes/themes/mura-cgem-theme/images/chevron-up.png?20190214043432)
 }
 
 .nav.mobile li .more {
-	background-image: url(/cbi-prod/includes/themes/mura-cbi-theme/images/chevron-down.png?20190214043432);
+	background-image: url(/cgem-prod/includes/themes/mura-cgem-theme/images/chevron-down.png?20190214043432);
 	background-repeat: no-repeat;
 	background-position: 60% 50%;
 	float: right;
@@ -3760,7 +3883,7 @@ header .container {
 	position: static
 }
 
-header .cbi-header-search-icon i {
+header .cgem-header-search-icon i {
 	line-height: 45px;
 	color: #082559;
 	font-size: 28px;
@@ -3772,50 +3895,50 @@ header .cbi-header-search-icon i {
 	padding: 0 10px 0 10px
 }
 
-header .cbi-mini-navbar {
+header .cgem-mini-navbar {
 	background-color: #082559;
 	color: #fff;
 	margin: 0
 }
 
-header .cbi-mini-navbar .nav.navbar-nav {
+header .cgem-mini-navbar .nav.navbar-nav {
 	margin: 0
 }
 
-header .cbi-mini-navbar li {
+header .cgem-mini-navbar li {
 	float: left
 }
 
-header .cbi-mini-navbar li a {
+header .cgem-mini-navbar li a {
 	padding: 10px 7px 10px 7px
 }
 
-header .cbi-mini-navbar .navbar-nav {
+header .cgem-mini-navbar .navbar-nav {
 	background-color: #082559
 }
 
-header .cbi-mini-navbar .navbar-nav a {
+header .cgem-mini-navbar .navbar-nav a {
 	color: #fff
 }
 
-header .cbi-mini-navbar .nav>li>a:hover {
+header .cgem-mini-navbar .nav>li>a:hover {
 	background-color: #082559
 }
 
-header .cbi-mini-searchbar {
+header .cgem-mini-searchbar {
 	display: none;
 	background-color: #082559;
 	height: 0
 }
 
-header .cbi-mini-searchbar .form-control,
-header .cbi-mini-searchbar .btn {
+header .cgem-mini-searchbar .form-control,
+header .cgem-mini-searchbar .btn {
 	border-color: #082559;
 	border: 0;
 	height: 34px
 }
 
-header .cbi-mini-searchbar .btn {
+header .cgem-mini-searchbar .btn {
 	padding-bottom: 6px;
 	padding-top: 6px;
 	color: #0171cf;
@@ -3829,19 +3952,19 @@ header .cbi-mini-searchbar .btn {
 .nav.mobile .buvo-link a {
 	font: 16px/40px 'millbolditalic', georgia, times, serif;
 	text-transform: none;
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/buvo-link-arrow.png?20190214043432) top right no-repeat !important;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/buvo-link-arrow.png?20190214043432) top right no-repeat !important;
 	padding-top: 0
 }
 
-.cbi-mini-searchbar .input-group {
+.cgem-mini-searchbar .input-group {
 	z-index: 10
 }
 
-.cbi-mini-searchbar {
+.cgem-mini-searchbar {
 	background-color: transparent
 }
 
-.cbi-mini-searchbar .input-group {
+.cgem-mini-searchbar .input-group {
 	background-color: #fff;
 	padding: 10px 15px 10px 15px;
 	border: 1px solid rgba(193, 193, 193, 0.6);
@@ -3849,17 +3972,17 @@ header .cbi-mini-searchbar .btn {
 	position: absolute
 }
 
-.cbi-mini-searchbar .input-group input {
+.cgem-mini-searchbar .input-group input {
 	border: 1px solid #b1b1b1;
 	border-radius: 7px;
 	height: 40px
 }
 
-.cbi-mini-searchbar .col-sm-6 {
+.cgem-mini-searchbar .col-sm-6 {
 	position: absolute
 }
 
-.cbi-mini-searchbar .input-group .fa-times-circle {
+.cgem-mini-searchbar .input-group .fa-times-circle {
 	font-size: 24px;
 	line-height: 24px;
 	padding: 8px 18px 8px 30px;
@@ -3867,15 +3990,15 @@ header .cbi-mini-searchbar .btn {
 	cursor: pointer
 }
 
-.cbi-mini-searchbar .input-group .btn-default,
-.cbi-mini-searchbar .input-group input[type=text] {
+.cgem-mini-searchbar .input-group .btn-default,
+.cgem-mini-searchbar .input-group input[type=text] {
 	border-bottom-left-radius: 4px;
 	border-top-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 	border-top-right-radius: 4px
 }
 
-.cbi-mini-searchbar .input-group input[type=text] {
+.cgem-mini-searchbar .input-group input[type=text] {
 	padding: 0 20px 0 20px;
 	font-size: 16px;
 	color: #0171cf;
@@ -3883,27 +4006,27 @@ header .cbi-mini-searchbar .btn {
 	-webkit-text-fill-color: transparent
 }
 
-.cbi-mini-searchbar .input-group input[type=text]::-webkit-input-placeholder {
+.cgem-mini-searchbar .input-group input[type=text]::-webkit-input-placeholder {
 	color: #d1d1d1;
 	text-shadow: none;
 	-webkit-text-fill-color: initial
 }
 
-header .cbi-mini-searchbar form {
+header .cgem-mini-searchbar form {
 	padding-top: 0;
 	padding-bottom: 0
 }
 
-header .cbi-mini-searchbar form .btn {
+header .cgem-mini-searchbar form .btn {
 	font-size: 16px
 }
 
-.nav.mobile>li.cbi-desktop-search-button a,
-.nav>li.cbi-desktop-search-button a {
+.nav.mobile>li.cgem-desktop-search-button a,
+.nav>li.cgem-desktop-search-button a {
 	display: none
 }
 
-.cbi-triangle-up {
+.cgem-triangle-up {
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -3959,8 +4082,8 @@ nav.mobile .container {
 		background-color: #082559 !important
 	}
 
-	.nav.mobile>li.cbi-desktop-search-button a,
-	.nav>li.cbi-desktop-search-button a {
+	.nav.mobile>li.cgem-desktop-search-button a,
+	.nav>li.cgem-desktop-search-button a {
 		padding-top: 42.5px;
 		padding-right: 0;
 		display: inline-block
@@ -3994,15 +4117,15 @@ nav.mobile .container {
 		padding-bottom: 10px
 	}
 
-	.cbi-desktop-search-button a,
-	.nav.mobile .cbi-desktop-search-button a:hover,
-	.nav.cbi .cbi-desktop-search-button a:hover {
-		background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/ico/search-button-white.png?20190214043432) no-repeat 7px 22px;
+	.cgem-desktop-search-button a,
+	.nav.mobile .cgem-desktop-search-button a:hover,
+	.nav.cgem .cgem-desktop-search-button a:hover {
+		background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/ico/search-button-white.png?20190214043432) no-repeat 7px 22px;
 		height: 32px;
 		width: 32px
 	}
 
-	.cbi-mini-searchbar .col-sm-6.pull-right {
+	.cgem-mini-searchbar .col-sm-6.pull-right {
 		right: 30px
 	}
 
@@ -4010,17 +4133,17 @@ nav.mobile .container {
 		display: none !important
 	}
 
-	.nav.mobile>li.cbi-desktop-search-button a,
-	.nav.cbi>li.cbi-desktop-search-button a {
+	.nav.mobile>li.cgem-desktop-search-button a,
+	.nav.cgem>li.cgem-desktop-search-button a {
 		display: inline-block
 	}
 
-	.cbi-mini-searchbar .col-sm-6 {
+	.cgem-mini-searchbar .col-sm-6 {
 		position: relative
 	}
 
 	_::-webkit-:not(:root:root),
-	.cbi-mini-searchbar .col-sm-6.pull-right {
+	.cgem-mini-searchbar .col-sm-6.pull-right {
 		right: 0
 	}
 }
@@ -4041,9 +4164,9 @@ nav.mobile .container {
 		max-width: 970px
 	}
 
-	.cbi-desktop-search-button a,
-	.nav.mobile .cbi-desktop-search-button a:hover,
-	.nav.cbi .cbi-desktop-search-button a:hover {
+	.cgem-desktop-search-button a,
+	.nav.mobile .cgem-desktop-search-button a:hover,
+	.nav.cgem .cgem-desktop-search-button a:hover {
 		background-position: 10px 18px
 	}
 
@@ -4060,8 +4183,8 @@ nav.mobile .container {
 		padding-bottom: 10px
 	}
 
-	.nav.mobile>li.cbi-desktop-search-button a,
-	.nav.cbi>li.cbi-desktop-search-button a {
+	.nav.mobile>li.cgem-desktop-search-button a,
+	.nav.cgem>li.cgem-desktop-search-button a {
 		padding-top: 36.5px;
 		padding-right: 0
 	}
@@ -4077,34 +4200,34 @@ nav.mobile .container {
 		display: none
 	}
 
-	.cbi-crumbtrail {
+	.cgem-crumbtrail {
 		display: none
 	}
 
-	.cbi-mini-searchbar .input-group .cbi-clearButton {
+	.cgem-mini-searchbar .input-group .cgem-clearButton {
 		display: none
 	}
 
-	.cbi-mini-searchbar .input-group .btn {
+	.cgem-mini-searchbar .input-group .btn {
 		margin-left: 10px
 	}
 
-	.cbi-mini-searchbar .input-group {
+	.cgem-mini-searchbar .input-group {
 		padding: 10px 8px 10px 8px
 	}
 
-	.cbi-mini-searchbar .col-sm-6 {
+	.cgem-mini-searchbar .col-sm-6 {
 		position: absolute
 	}
 
-	.cbi-site-logo {
+	.cgem-site-logo {
 		margin-left: 10px;
 		margin-top: 5px;
 		position: absolute;
 		top: 5px
 	}
 
-	.cbi-triangle-up {
+	.cgem-triangle-up {
 		right: 76px;
 		bottom: -1px;
 		border-width: 0 10px 8px 10px
@@ -4148,33 +4271,33 @@ nav.mobile .container {
 	}
 }
 
-.cbi-body--home {
+.cgem-body--home {
 	padding-top: 30px
 }
 
-.cbi-body--home .cbi-display-objects {
+.cgem-body--home .cgem-display-objects {
 	margin-top: 15px
 }
 
-.cbi-body--home .cbi-display-objects>div {
+.cgem-body--home .cgem-display-objects>div {
 	margin-bottom: 15px
 }
 
-.cbi-body--home .cbi-display-objects>.storify {
+.cgem-body--home .cgem-display-objects>.storify {
 	margin: 15px 15px 5px
 }
 
 @media(min-width:992px) {
-	.cbi-body--home .cbi-display-objects .pull-left-md {
+	.cgem-body--home .cgem-display-objects .pull-left-md {
 		padding-right: 7.5px
 	}
 
-	.cbi-body--home .cbi-display-objects .pull-right-md {
+	.cgem-body--home .cgem-display-objects .pull-right-md {
 		padding-left: 7.5px
 	}
 }
 
-.cbi-banner img {
+.cgem-banner img {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -4183,11 +4306,11 @@ nav.mobile .container {
 }
 
 @media(min-width:768px) {
-	.cbi-banner-left {
+	.cgem-banner-left {
 		padding-right: 7.5px
 	}
 
-	.cbi-banner-right {
+	.cgem-banner-right {
 		padding-left: 7.5px
 	}
 }
@@ -4195,16 +4318,16 @@ nav.mobile .container {
 
 @font-face {
 	font-family: 'MetaWeb-Normal';
-	src: url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Normal.eot?20190214043431);
-	src: url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Normal.eot?#iefix) format('embedded-opentype'), url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Normal.woff?20190214043431) format('woff'), url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Normal.ttf?20190214043431) format('truetype');
+	src: url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Normal.eot?20190214043431);
+	src: url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Normal.eot?#iefix) format('embedded-opentype'), url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Normal.woff?20190214043431) format('woff'), url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Normal.ttf?20190214043431) format('truetype');
 	font-weight: normal;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'MetaWeb-Bold';
-	src: url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Bold.eot?20190214043431);
-	src: url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Bold.eot?#iefix) format('embedded-opentype'), url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Bold.woff?20190214043431) format('woff'), url(/cbi-prod/includes/themes/mura-cbi-theme/css/fonts/MetaWeb-Bold.ttf?20190214043431) format('truetype')
+	src: url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Bold.eot?20190214043431);
+	src: url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Bold.eot?#iefix) format('embedded-opentype'), url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Bold.woff?20190214043431) format('woff'), url(/cgem-prod/includes/themes/mura-cgem-theme/css/fonts/MetaWeb-Bold.ttf?20190214043431) format('truetype')
 }
 
 img[data-style] {
@@ -4217,13 +4340,13 @@ img[style] {
 }
 
 
-body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 section.cbi-content table.left,
-body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 section.cbi-content table.right {
+body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 section.cgem-content table.left,
+body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 section.cgem-content table.right {
 	width: 50%;
 	float: left
 }
 
-body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 section.cbi-content hr {
+body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 section.cgem-content hr {
 	margin: 50px 0
 }
 
@@ -4362,24 +4485,24 @@ body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 sect
 }
 
 
-.cbi-newsArticle__relatedArticles--text .glyphicon-menu-right:before {
+.cgem-newsArticle__relatedArticles--text .glyphicon-menu-right:before {
 	padding-left: 1px
 }
 
 .glyphicon-bv-circle-arrow-blue-right {
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/ico/arrow-right-blue-18x18.png?20190214043432) no-repeat 0 0;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/ico/arrow-right-blue-18x18.png?20190214043432) no-repeat 0 0;
 	background-size: 100% 100%;
 	width: 18px !important;
 	height: 18px
 }
 
-.cbi-content h1.latest-news {
+.cgem-content h1.latest-news {
 	margin-left: 15px;
 	color: #1a1a1a;
 	margin-bottom: 35px
 }
 
-.cbi-content .cbi-newsArticleRelatedArticles {
+.cgem-content .cgem-newsArticleRelatedArticles {
 	margin-right: 0;
 	margin-left: 0;
 	background-color: #f2f2f2;
@@ -4387,21 +4510,21 @@ body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 sect
 	padding-right: 0
 }
 
-.container-fluid.cbi-newsArticleRelatedArticles h3 {
+.container-fluid.cgem-newsArticleRelatedArticles h3 {
 	font-weight: bold;
 	padding-left: 15px
 }
 
-.cbi-newsArticleRelatedArticlesItem h4 {
+.cgem-newsArticleRelatedArticlesItem h4 {
 	font-weight: bold;
 	margin-left: 15px
 }
 
-.cbi-newsArticleRelatedArticlesItem {
+.cgem-newsArticleRelatedArticlesItem {
 	margin-bottom: 15px
 }
 
-.cbi-content .cbi-newsArticle__relatedArticles--text h4 {
+.cgem-content .cgem-newsArticle__relatedArticles--text h4 {
 	color: #1a1a1a;
 	margin-top: 0;
 	font-size: 18px;
@@ -4409,11 +4532,11 @@ body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 sect
 	font-family: DINNextLTPro-light, arial, sans-serif
 }
 
-.cbi-content .cbi-newsArticle__relatedArticles--text h4 a {
+.cgem-content .cgem-newsArticle__relatedArticles--text h4 a {
 	color: #1a1a1a
 }
 
-.cbi-content .cbi-newsArticle__relatedArticles--text p {
+.cgem-content .cgem-newsArticle__relatedArticles--text p {
 	position: absolute;
 	bottom: 0;
 	left: 10px;
@@ -4424,7 +4547,7 @@ body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 sect
 	color: #1a1a1a !important
 }
 
-.cbi-content .cbi-newsArticle__relatedArticles--text p span {
+.cgem-content .cgem-newsArticle__relatedArticles--text p span {
 	float: right;
 	color: #fff;
 	background-color: #082559;
@@ -4439,46 +4562,46 @@ body[data-page*=impact-of-a-no-deal-brexit-across-the-uk-continued].sub2016 sect
 	padding-left: 4px
 }
 
-.cbi-newsArticle__relatedArticles--text {
+.cgem-newsArticle__relatedArticles--text {
 	position: relative;
 	min-height: 160px;
 	background-color: #fff;
 	padding: 10px
 }
 
-.cbi-newsArticle__relatedArticles--img img {
+.cgem-newsArticle__relatedArticles--img img {
 	width: 100%
 }
 
-.cbi-newsHeaderImage img {
+.cgem-newsHeaderImage img {
 	max-width: none
 }
 
-.cbi-newsHeaderImage {
+.cgem-newsHeaderImage {
 	overflow: hidden
 }
 
 @media(max-width:767px) {
-	.cbi-articleTeaser {
+	.cgem-articleTeaser {
 		background-color: #efefef;
 		margin-left: 15px;
 		margin-right: 15px;
 		padding-bottom: 5px
 	}
 
-	.cbi-content__image {
+	.cgem-content__image {
 		margin-left: 0;
 		margin-right: 0;
 		margin-top: 15px
 	}
 }
 
-.cbi-content .cbi-newsLandingHeaderContent__summary {
+.cgem-content .cgem-newsLandingHeaderContent__summary {
 	line-height: .3;
 	margin-top: 38px
 }
 
-.cbi-content .cbi-newsArticle__relatedArticles--text p {
+.cgem-content .cgem-newsArticle__relatedArticles--text p {
 	margin-bottom: 10px
 }
 
@@ -4628,24 +4751,24 @@ span.zero-point:after {
 	margin-left: -4px
 }
 
-.overview .cbi-content__image {
+.overview .cgem-content__image {
 	position: relative
 }
 
-.overview .cbi-content__image .social {
+.overview .cgem-content__image .social {
 	position: absolute;
 	bottom: 15px;
 	right: 15px
 }
 
-.overview .cbi-content__image .social ul {
+.overview .cgem-content__image .social ul {
 	height: 50px;
 	margin: 0;
 	padding: 0;
 	font-size: 0
 }
 
-.overview .cbi-content__image .social li {
+.overview .cgem-content__image .social li {
 	background: #fff;
 	font: 24px/50px FontAwesome;
 	border-radius: 100%;
@@ -4655,11 +4778,11 @@ span.zero-point:after {
 	overflow: hidden
 }
 
-.overview .cbi-content__image .social li~li {
+.overview .cgem-content__image .social li~li {
 	margin-left: 15px
 }
 
-.overview .cbi-content__image .social li a {
+.overview .cgem-content__image .social li a {
 	color: #fff;
 	display: block;
 	text-decoration: none;
@@ -4669,35 +4792,35 @@ span.zero-point:after {
 	text-align: center
 }
 
-.overview .cbi-content__image .social .email {
+.overview .cgem-content__image .social .email {
 	background: #fff
 }
 
-.overview .cbi-content__image .social .email a {
+.overview .cgem-content__image .social .email a {
 	color: #555
 }
 
-.overview .cbi-content__image .social .email a:before {
+.overview .cgem-content__image .social .email a:before {
 	content: "\f003"
 }
 
-.overview .cbi-content__image .social .twitter {
+.overview .cgem-content__image .social .twitter {
 	background: #55acee
 }
 
-.overview .cbi-content__image .social .twitter a:before {
+.overview .cgem-content__image .social .twitter a:before {
 	content: "\f099"
 }
 
-.overview .cbi-content__image .social .linkedin {
+.overview .cgem-content__image .social .linkedin {
 	background: #0977b5
 }
 
-.overview .cbi-content__image .social .linkedin a:before {
+.overview .cgem-content__image .social .linkedin a:before {
 	content: "\f0e1"
 }
 
-.overview .cbi-content__title {
+.overview .cgem-content__title {
 	float: none
 }
 
@@ -4733,7 +4856,7 @@ span.zero-point:after {
 	right: 15px
 }
 
-.overview .carousel .cbi-list-item {
+.overview .carousel .cgem-list-item {
 	text-align: center;
 	margin: 10px;
 	padding: 0;
@@ -4745,7 +4868,7 @@ span.zero-point:after {
 	overflow: hidden
 }
 
-.overview .carousel .cbi-list-item__title {
+.overview .carousel .cgem-list-item__title {
 	background: rgba(255, 255, 255, 0.95);
 	font-size: 1em;
 	line-height: 150%;
@@ -4762,24 +4885,24 @@ span.zero-point:after {
 	-o-transition: all .6s ease
 }
 
-.overview .carousel .cbi-list-item:hover .cbi-list-item__title {
+.overview .carousel .cgem-list-item:hover .cgem-list-item__title {
 	opacity: .1
 }
 
-.overview .carousel .cbi-list-item__title a {
+.overview .carousel .cgem-list-item__title a {
 	font-size: inherit;
 	padding: 10px;
 	display: block
 }
 
-.overview .carousel .cbi-list-item .cbi-list-item__image {
+.overview .carousel .cgem-list-item .cgem-list-item__image {
 	margin: 0;
 	position: relative;
 	padding: 0;
 	float: none
 }
 
-.overview .carousel .cbi-list-item .cbi-list-item__image img {
+.overview .carousel .cgem-list-item .cgem-list-item__image img {
 	max-width: 100%
 }
 
@@ -4792,16 +4915,16 @@ span.zero-point:after {
 	float: left
 }
 
-.overview .bottomLeft .cbi-list-item {
+.overview .bottomLeft .cgem-list-item {
 	padding: 15px;
 	border: 1px solid #ddd
 }
 
-.overview .bottomLeft .cbi-list-item~.cbi-list-item {
+.overview .bottomLeft .cgem-list-item~.cgem-list-item {
 	margin-top: 15px
 }
 
-.overview .bottomLeft .cbi-list-item__title {
+.overview .bottomLeft .cgem-list-item__title {
 	line-height: 200%
 }
 
@@ -4838,7 +4961,7 @@ span.zero-point:after {
 	text-align: center
 }
 
-.overview .bottom .cbi-list-item {
+.overview .bottom .cgem-list-item {
 	background: #ddd;
 	display: table-cell;
 	width: auto;
@@ -4848,12 +4971,12 @@ span.zero-point:after {
 	border: 10px solid #fff
 }
 
-.overview .bottom .cbi-list-item .cbi-list-item__title {
+.overview .bottom .cgem-list-item .cgem-list-item__title {
 	line-height: 185%;
 	padding: 0
 }
 
-.overview .bottom .cbi-list-item .cbi-list-item__title a {
+.overview .bottom .cgem-list-item .cgem-list-item__title a {
 	padding: 15px;
 	display: block
 }
@@ -4871,17 +4994,17 @@ span.zero-point:after {
 		margin: 0
 	}
 
-	.cbi-leftNav {
+	.cgem-leftNav {
 		display: block
 	}
 }
 
 @media(max-width:450px) {
-	.overview .bottom .cbi-list-item {
+	.overview .bottom .cgem-list-item {
 		display: block
 	}
 
-	.overview .bottom .cbi-list-item~.cbi-list-item {
+	.overview .bottom .cgem-list-item~.cgem-list-item {
 		margin-top: 10px
 	}
 }
@@ -4951,7 +5074,7 @@ span.zero-point:after {
 }
 
 .picscroll {
-	font: 20px/1.5em 'opens', arial;
+	font: 20px/1.5em 'arial';
 	overflow: hidden;
 	position: relative;
 	height: 0;
@@ -5157,7 +5280,7 @@ span.zero-point:after {
 	}
 }
 
-.cbi-poppy {
+.cgem-poppy {
 	position: absolute;
 	display: block;
 	border: 0;
@@ -5167,20 +5290,20 @@ span.zero-point:after {
 }
 
 @media(min-width:768px) {
-	.cbi-poppy {
+	.cgem-poppy {
 		display: inline-block;
 		position: relative;
 		width: 100px;
 		height: 81px;
-		background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/poppy_desktop.png?20190214043432) no-repeat 100% 0;
+		background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/poppy_desktop.png?20190214043432) no-repeat 100% 0;
 		left: 95px;
 		top: -32px
 	}
 }
 
 @media(max-width:767px) {
-	.cbi-poppy {
-		background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/poppy_mobile.png?20190214043432) no-repeat 100% 0;
+	.cgem-poppy {
+		background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/poppy_mobile.png?20190214043432) no-repeat 100% 0;
 		float: left;
 		left: 100px;
 		height: 51px;
@@ -5190,7 +5313,7 @@ span.zero-point:after {
 }
 
 header .popup {
-	font: 14px 'opens', arial, sans-serif;
+	font: 14px arial sans-serif;
 	color: #fff;
 	display: none;
 	position: relative
@@ -5263,7 +5386,7 @@ header .popup .inner {
 }
 
 header .popup .exit {
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/x.png?20190214043432) center center no-repeat;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/x.png?20190214043432) center center no-repeat;
 	width: 13px;
 	height: 13px;
 	margin: -15px 0 0;
@@ -5365,40 +5488,40 @@ header .popup .exit:hover {
 
 @media print {
 
-	.cbi-newsFeed-tags,
+	.cgem-newsFeed-tags,
 	.paginationWrapper,
-	.cbi-newsFeed-items__goArrow,
+	.cgem-newsFeed-items__goArrow,
 	.topNewsFilters,
-	.cbi-newsArticle__relatedArticles,
-	.cbi-pageFooter__social,
-	.cbi-tags,
-	.cbi-backToTopLink,
-	.cbi-footer,
+	.cgem-newsArticle__relatedArticles,
+	.cgem-pageFooter__social,
+	.cgem-tags,
+	.cgem-backToTopLink,
+	.cgem-footer,
 	.navbar-toggle,
-	.cbi-leftCol,
-	.cbi-header-search-icon,
+	.cgem-leftCol,
+	.cgem-header-search-icon,
 	.toggleMenu {
 		display: none
 	}
 
-	.cbi-newsFeed-items img {
+	.cgem-newsFeed-items img {
 		width: 50%
 	}
 
-	.cbi-list-item__image {
+	.cgem-list-item__image {
 		width: 30%
 	}
 
-	.cbi-featured-content .cbi-featured-content__title {
+	.cgem-featured-content .cgem-featured-content__title {
 		line-height: 70px
 	}
 
-	.cbi-content {
+	.cgem-content {
 		display: inline-grid
 	}
 
-	.cbi-logo {
-		background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/CBI_logo-WHITE-small.png?20190214043432) no-repeat left 8px !important
+	.cgem-logo {
+		background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/cgem_logo-WHITE-small.png?20190214043432) no-repeat left 8px !important
 	}
 
 	.navbar-header {
@@ -5406,17 +5529,17 @@ header .popup .exit:hover {
 	}
 }
 
-.sub2016 section.cbi-content .promoted {
+.sub2016 section.cgem-content .promoted {
 	margin: 50px 0 0
 }
 
-.sub2016 section.cbi-content .promoted ul {
+.sub2016 section.cgem-content .promoted ul {
 	font-size: 0;
 	margin: 0;
 	list-style-type: none
 }
 
-.sub2016 section.cbi-content .promoted ul li {
+.sub2016 section.cgem-content .promoted ul li {
 	width: 50%;
 	margin: 0 0 25px;
 	padding: 0;
@@ -5424,55 +5547,55 @@ header .popup .exit:hover {
 	vertical-align: top
 }
 
-.sub2016 section.cbi-content .promoted[data-count] ul li:nth-of-type(even) {
+.sub2016 section.cgem-content .promoted[data-count] ul li:nth-of-type(even) {
 	padding-left: 12.5px
 }
 
-.sub2016 section.cbi-content .promoted[data-count] ul li:nth-of-type(odd) {
+.sub2016 section.cgem-content .promoted[data-count] ul li:nth-of-type(odd) {
 	padding-right: 12.5px
 }
 
-.sub2016 section.cbi-content .promoted ul li img {
+.sub2016 section.cgem-content .promoted ul li img {
 	background: center center no-repeat #ddd;
 	background-size: cover;
 	width: 100%;
 	margin: 0
 }
 
-.sub2016 section.cbi-content .promoted ul li .text {
+.sub2016 section.cgem-content .promoted ul li .text {
 	padding: 20px;
 	border: 1px solid #c9c9c9;
 	border-top: 0
 }
 
-.sub2016 section.cbi-content .promoted ul li .title {
+.sub2016 section.cgem-content .promoted ul li .title {
 	font: 19px DINNextLTPro-Regular, arial, sans-serif;
 	margin: 0 0 10px
 }
 
-.sub2016 section.cbi-content .promoted ul li .summary p {
+.sub2016 section.cgem-content .promoted ul li .summary p {
 	font-family: inherit;
 	font-size: 15px;
 	line-height: 1.75em;
 	margin: 0 0 10px
 }
 
-.sub2016 section.cbi-content .promoted ul li .summary p~p {
+.sub2016 section.cgem-content .promoted ul li .summary p~p {
 	display: none
 }
 
-.sub2016 section.cbi-content .promoted ul li .summary~p {
+.sub2016 section.cgem-content .promoted ul li .summary~p {
 	margin: 0
 }
 
 @media(max-width:750px) {
-	.sub2016 section.cbi-content .promoted[data-count='more'] ul li {
+	.sub2016 section.cgem-content .promoted[data-count='more'] ul li {
 		width: 100%;
 		margin: 0 0 25px
 	}
 
-	.sub2016 section.cbi-content .promoted[data-count='more'] ul li:nth-of-type(even),
-	.sub2016 section.cbi-content .promoted[data-count='more'] ul li:nth-of-type(odd) {
+	.sub2016 section.cgem-content .promoted[data-count='more'] ul li:nth-of-type(even),
+	.sub2016 section.cgem-content .promoted[data-count='more'] ul li:nth-of-type(odd) {
 		padding: 0
 	}
 }
@@ -5523,13 +5646,13 @@ ul.rotator[style] {
 	opacity: 1
 }
 
-.cbi-body *~ul.rotator,
-.cbi-content *~ul.rotator {
+.cgem-body *~ul.rotator,
+.cgem-content *~ul.rotator {
 	margin: 10px 0 0
 }
 
-.cbi-body ul.rotator li img,
-.cbi-content ul.rotator li img {
+.cgem-body ul.rotator li img,
+.cgem-content ul.rotator li img {
 	width: 100%;
 	max-width: 100%;
 	height: auto
@@ -5549,9 +5672,9 @@ ul.rotator[data-timed] li~li {
 	left: 0
 }
 
-.home2016.winter .cbi-site-logo:after {
+.home2016.winter .cgem-site-logo:after {
 	content: "";
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/cbi-hat.png?20190214043432) center center no-repeat;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/cgem-hat.png?20190214043432) center center no-repeat;
 	width: 35px;
 	height: 39px;
 	display: block;
@@ -5564,14 +5687,14 @@ ul.rotator[data-timed] li~li {
 	transition: transform 1s ease, top .75s ease
 }
 
-.home2016.winter .cbi-site-logo.hat:after {
+.home2016.winter .cgem-site-logo.hat:after {
 	top: -8px;
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg)
 }
 
 .home2016.winter .flake {
-	background: url(/cbi-prod/includes/themes/mura-cbi-theme/images/seasons/snowflake.gif?20190214043432) center center no-repeat;
+	background: url(/cgem-prod/includes/themes/mura-cgem-theme/images/seasons/snowflake.gif?20190214043432) center center no-repeat;
 	background-size: contain;
 	z-index: 1000
 }
@@ -5580,7 +5703,7 @@ ul.rotator[data-timed] li~li {
 	opacity: 0
 }
 
-.cbi-section-label {
+.cgem-section-label {
 	color: white;
 	float: left;
 	padding: 5px 10px;
@@ -5590,71 +5713,71 @@ ul.rotator[data-timed] li~li {
 }
 
 @media(max-width:767px) {
-	.cbi-section-label {
+	.cgem-section-label {
 		margin-left: -15px;
 		margin-top: 15px
 	}
 }
 
-.cbi-section-label {
+.cgem-section-label {
 	background-color: #2f467e
 }
 
-.cbi-content h1,
-.cbi-content h2,
-.cbi-content h3,
-.cbi-content h4,
-.cbi-content h5,
-.cbi-content h6,
-.cbi-sidebar .nav>li.active>a,
-.cbi-folder__title a {
+.cgem-content h1,
+.cgem-content h2,
+.cgem-content h3,
+.cgem-content h4,
+.cgem-content h5,
+.cgem-content h6,
+.cgem-sidebar .nav>li.active>a,
+.cgem-folder__title a {
 	font-family: DINNextLTPro-Regular, arial, sans-serif;
 	color: #1a1a1a
 }
 
-.cbi-content h2,
-.cbi-content h3,
-.cbi-content h4,
-.cbi-content h5,
-.cbi-content h6 {
+.cgem-content h2,
+.cgem-content h3,
+.cgem-content h4,
+.cgem-content h5,
+.cgem-content h6 {
 	font-family: arial, sans-serif;
 	font-weight: bold
 }
 
-.cbi-content h2 {
+.cgem-content h2 {
 	font-size: 22px
 }
 
-.cbi-content h3 {
+.cgem-content h3 {
 	font-size: 18px
 }
 
-.cbi-content h4 {
+.cgem-content h4 {
 	font-size: 16px
 }
 
-.cbi-sidebar {
+.cgem-sidebar {
 	background-color: #e4e4e4
 }
 
-.cbi-sidebar .nav {
+.cgem-sidebar .nav {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 15px;
 	font-family: DINNextLTPro-Regular, arial, sans-serif
 }
 
-.cbi-sidebar .nav>li>a {
+.cgem-sidebar .nav>li>a {
 	border-bottom: 1px solid #EEE;
 	padding: 5px 8px 5px 20px;
 	color: #003371
 }
 
-.cbi-sidebar .nav>li.active>a {
+.cgem-sidebar .nav>li.active>a {
 	background-color: #d3d3d3
 }
 
-.cbi-sidebar .nav>li>a:before {
+.cgem-sidebar .nav>li>a:before {
 	content: '\00BB';
 	padding-right: 5px;
 	color: #999;
@@ -5663,8 +5786,8 @@ ul.rotator[data-timed] li~li {
 	margin-bottom: -17px
 }
 
-.cbi-content .survey.scroll,
-.cbi-content .quiz.scroll {
+.cgem-content .survey.scroll,
+.cgem-content .quiz.scroll {
 	overflow-y: auto
 }
 
@@ -5720,80 +5843,80 @@ ul.rotator[data-timed] li~li {
 	margin: 0
 }
 
-.cbi-content table {
+.cgem-content table {
 	width: 100%;
 	max-width: 100%
 }
 
-.cbi-content table th,
-.cbi-content table td {
+.cgem-content table th,
+.cgem-content table td {
 	padding: 5px 10px
 }
 
-#executivedevelopment .cbi-content table td {
+#executivedevelopment .cgem-content table td {
 	vertical-align: top
 }
 
-.cbi-content table[align=left] {
+.cgem-content table[align=left] {
 	margin: 0 25px 10px 0
 }
 
-.cbi-content table[align=right] {
+.cgem-content table[align=right] {
 	margin: 0 0 10px 25px
 }
 
-.cbi-content table.fixed {
+.cgem-content table.fixed {
 	table-layout: fixed
 }
 
-.cbi-content table.top th,
-.cbi-content table.top td {
+.cgem-content table.top th,
+.cgem-content table.top td {
 	vertical-align: top
 }
 
-.cbi-content table.bottom th,
-.cbi-content table.bottom td {
+.cgem-content table.bottom th,
+.cgem-content table.bottom td {
 	vertical-align: bottom
 }
 
 @media(max-width:750px) {
 
-	.cbi-content table[align=left],
-	.cbi-content table[align=right] {
+	.cgem-content table[align=left],
+	.cgem-content table[align=right] {
 		width: 100% !important;
 		margin: 25px 0
 	}
 
-	.cbi-content table.programmes td {
+	.cgem-content table.programmes td {
 		width: 50%
 	}
 }
 
-.cbi-newsFeed .cbi-tags__all {
+.cgem-newsFeed .cgem-tags__all {
 	margin-bottom: 10px;
 	margin-top: 0
 }
 
-.cbi-tags {
+.cgem-tags {
 	background-color: #f2f2f2;
 	margin-bottom: 35px;
 	padding: 10px 0 1px 0
 }
 
-.cbi-tags.cbi-selectedTags {
+.cgem-tags.cgem-selectedTags {
 	margin-bottom: 0
 }
 
-.cbi-tags.cbi-selectedTags ul {
+.cgem-tags.cgem-selectedTags ul {
 	margin-bottom: 0;
 	padding-left: 25px !important
 }
 
-.cbi-newsFeed .cbi-tags__all ul li {
+.cgem-newsFeed .cgem-tags__all ul li {
 	line-height: 25px
 }
 
-#cbi-allTags {
+#cgem-allTags {
 	padding-left: 18px
 }
 
@@ -5804,85 +5927,85 @@ ul.rotator[data-timed] li~li {
 	padding-left: 10px
 }
 
-.cbi-tags__all .span4 h3 {
+.cgem-tags__all .span4 h3 {
 	margin-top: 0
 }
 
-.cbi-newsFeed .cbi-tags__all h3 {
+.cgem-newsFeed .cgem-tags__all h3 {
 	color: #1f467c;
 	font-size: 22px;
 	font-family: DINNextLTPro-Regular, arial, sans-serif
 }
 
-.cbi-tags__this {
+.cgem-tags__this {
 	display: inline-block
 }
 
-.cbi-tags__this ul {
+.cgem-tags__this ul {
 	padding-left: 0;
 	height: 26px;
 	line-height: 27px
 }
 
-.cbi-tags__this li {
+.cgem-tags__this li {
 	float: left;
 	list-style: none;
 	margin-left: 10px
 }
 
-.cbi-tags__this li a {
+.cgem-tags__this li a {
 	color: #000
 }
 
-.col-sm-3.col-sm-pull-9.\2e cbi-newsFeed-tags {
+.col-sm-3.col-sm-pull-9.\2e cgem-newsFeed-tags {
 	padding-right: 0
 }
 
-.cbi-newsFeed .cbi-tags ul {
+.cgem-newsFeed .cgem-tags ul {
 	list-style: none;
 	padding-left: 15px
 }
 
-.cbi-newsFeed-tags {
+.cgem-newsFeed-tags {
 	padding-left: 0;
 	padding-right: 0
 }
 
-.cbi-newsFeed .cbi-tags>div,
-.cbi-newsFeed .cbi-tags .selected {
+.cgem-newsFeed .cgem-tags>div,
+.cgem-newsFeed .cgem-tags .selected {
 	padding-top: 5px;
 	padding-bottom: 5px
 }
 
-.cbi-newsFeed .cbi-tags {
+.cgem-newsFeed .cgem-tags {
 	background-color: #e4e4e4;
 	padding-top: 15px
 }
 
-.cbi-newsFeed .cbi-tags a {
+.cgem-newsFeed .cgem-tags a {
 	color: #333
 }
 
-.cbi-newsFeed .cbi-tags h3 {
+.cgem-newsFeed .cgem-tags h3 {
 	margin-left: 5px;
 	margin-top: 5px
 }
 
-.cbi-newsFeed .cbi-tags .selected h3 {
+.cgem-newsFeed .cgem-tags .selected h3 {
 	margin-top: 20px
 }
 
-.cbi-newsFeed .cbi-tags ul li.active,
-.cbi-newsFeed .cbi-tags .selected ul li {
+.cgem-newsFeed .cgem-tags ul li.active,
+.cgem-newsFeed .cgem-tags .selected ul li {
 	font-weight: bold
 }
 
-.cbi-newsFeed .cbi-tags .selected ul li {
+.cgem-newsFeed .cgem-tags .selected ul li {
 	margin-left: -16px
 }
 
-.cbi-newsFeed .cbi-tags ul li.active span,
-.cbi-newsFeed .cbi-tags .selected ul li span {
+.cgem-newsFeed .cgem-tags ul li.active span,
+.cgem-newsFeed .cgem-tags .selected ul li span {
 	margin-right: 3px
 }
 
@@ -6166,7 +6289,7 @@ form .req label>ins {
 }
 
 #cookies p {
-	font: 11px/1.5em 'opens', arial, sans-serif;
+	font: 11px/1.5em 'arial', arial, sans-serif;
 	color: #fff;
 	margin: 0;
 	display: inline-block;
@@ -6267,4 +6390,29 @@ span#optout {
 	to {
 		transform: translateY(0)
 	}
+}
+
+.home2016 .cbi-body--home .cbi-content {
+	padding: 0;
+	box-shadow: none;
+}
+
+.home2017 .cbi-body .container {
+	text-align: center;
+}
+
+.home2017 .bv2017 .cbi-content,
+.sub2016 .bv2017 .cbi-content {
+	background: 0;
+}
+
+.home2017 .bv2017,
+.sub2016 .bv2017 {
+	background: #000;
+	color: #fff;
+	max-width: 100%
+}
+
+#homepage>div.cgem-body.cgem-body--home>div.container.bv2017>div>section {
+	background: #000;
 }
