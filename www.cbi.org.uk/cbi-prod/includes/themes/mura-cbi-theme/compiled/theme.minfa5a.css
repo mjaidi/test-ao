@@ -6156,12 +6156,15 @@ form .req label>ins {
 	cursor: default;
 	display: none
 }
+
 .buvo #cookies {
 	background: #000
 }
+
 #cookies .inner {
 	margin: 0 auto
 }
+
 #cookies p {
 	font: 11px/1.5em 'opens', arial, sans-serif;
 	color: #fff;
@@ -6169,51 +6172,63 @@ form .req label>ins {
 	display: inline-block;
 	vertical-align: middle
 }
+
 #cookies .left {
 	width: 70%
 }
+
 #cookies .right {
 	text-align: center;
 	width: 30%;
 	display: inline-table;
 	table-layout: fixed
 }
+
 #cookies a {
 	text-decoration: underline;
 	color: #fff
 }
+
 #cookies span {
 	cursor: pointer
 }
+
 #cookies .right span {
 	font-weight: bold;
 	padding: 1em;
 	display: table-cell
 }
+
 #cookies .right span:hover {
 	background: #01c1d6
 }
+
 .buvo #cookies .right span:hover {
 	background: #e83b41
 }
+
 span#optin,
 span#optout {
 	color: #0071cd;
 	cursor: pointer
 }
+
 #adroll_consent_banner {
 	display: none
 }
+
 @media(min-width:992px) {
 	#cookies .inner {
 		width: 920px
 	}
 }
+
 @media(max-width:991px) {
 	#cookies .inner {
 		width: 700px
 	}
 }
+
 @media(max-width:750px) {
 	#cookies .inner {
 		width: 100%
@@ -6229,21 +6244,25 @@ span#optout {
 		padding: 1em
 	}
 }
+
 @media screen and (min-width:1250px) and (max-width:10000px) {
 	.buvo #cookies .inner {
 		width: 1150px
 	}
 }
+
 @media screen and (min-width:950px) and (max-width:1250px) {
 	.buvo #cookies .inner {
 		width: 850px
 	}
 }
+
 @media screen and (min-width:750px) and (max-width:950px) {
 	.buvo #cookies .inner {
 		width: 650px
 	}
 }
+
 @keyframes come-in {
 	to {
 		transform: translateY(0)
