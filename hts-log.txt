@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 13 Mar 2019 15:00:38 at http://www.cbi.org.uk/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.cbi.org.uk/ -O1 "C:\My Web Sites\CGTest" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:00:39	Warning: 	Note: due to www.cbi.org.uk remote robots.txt rules, links beginning with these path will be forbidden: /admin/, /tasks/, /requirements/, /config/ (see in the options to disable this)
+15:04:09	Warning: 	Retry after error -4 (No data (connection closed)) at link www.cbi.org.uk/cbi-prod/includes/themes/mura-cbi-theme/images/ico/close-menu-button.svg (from www.cbi.org.uk/)
+15:04:12	Warning: 	Moved Permanently for www.cbi.org.uk/about/
+15:04:12	Warning: 	File has moved from www.cbi.org.uk/about/ to /about/about-us/
+15:17:50	Warning: 	file not stored in cache due to bogus state (broken size, expected 33280438 got 4904998): www.cbi.org.uk/cbi-prod/assets/File/pdf/CBI_50 years of business innovation.pdf
