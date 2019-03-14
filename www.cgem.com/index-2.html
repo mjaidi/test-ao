@@ -531,8 +531,6 @@
                 <a href="#">Guide des services 2018</a>
               </p>
               <div class="summary">
-                <p>Proin ut vestibulum magna. Sed bibendum risus quis augue cursus lobortis. Pellentesque nec rhoncus
-                  risus. Suspendisse quis nulla tortor.</p>
               </div>
               <p class="date">2018</p>
             </li>
@@ -547,7 +545,6 @@
                 <a href="#">Guide pratique de l'employeur sur les accidents de travail</a>
               </p>
               <div class="summary">
-                <p>Pellentesque sed congue lorem. Mauris feugiat rhoncus felis, eget rutrum leo accumsan quis.</p>
               </div>
               <p class="date">2018</p>
             </li>
@@ -562,8 +559,6 @@
                 <a href="#">Guide de sécurité au travail</a>
               </p>
               <div class="summary">
-                <p>Sed commodo aliquet ante, et laoreet odio facilisis eget. In fringilla, eros sit amet ullamcorper
-                  fringilla, tortor lectus cursus turpis, sit amet dapibus nunc risus eget diam</p>
               </div>
               <p class="date">2018</p>
             </li>
@@ -648,6 +643,52 @@
     </div>
   </footer>
   <script src="js/jquery/jquery.js"></script>
+  <script>
+    $(function () {
+      $("nav.cgem ul li.level1").hover(function () {
+        var b = $(this);
+        $(this).find(".subnav").stop(true, true).delay(250).fadeIn();
+        $(this).siblings(".search").find(".subnav").delay(250).fadeOut();
+        setTimeout(function () {
+          b.addClass("active").siblings().removeClass("active")
+        }, 250)
+      }, function () {
+        var a = $(this);
+        $(this).find(".subnav").stop(true, true).delay(500).fadeOut();
+        setTimeout(function () {
+          a.removeClass("active")
+        }, 500)
+      });
+      $("nav.cgem ul li.level1.events > a").attr("href", "/events/events/");
+      $("nav.cgem .subnav .featured").each(function () {
+        var c = $(this);
+        if (c.hasClass("single") || c.hasClass("double")) {} else {
+          var b = c.find("ul li").length;
+          if (b === 2) {
+            c.addClass("double")
+          } else {
+            if (b === 1) {
+              c.addClass("single")
+            }
+          }
+        }
+      });
+      $("nav.cgem ul li.search > a").click(function () {
+        $(this).parent().toggleClass("active");
+        $(this).siblings(".subnav").fadeToggle();
+        $(this).siblings(".subnav").find("input[type=text]").focus();
+        $("nav.cgem ul li.level1").removeClass("active");
+        $("nav.cgem ul li.level1").addClass("inactive");
+        setTimeout(function () {
+          $("nav.cgem ul li.level1").removeClass("inactive")
+        }, 2500)
+      });
+      $(".cgem-body").click(function () {
+        $("nav.cgem ul li").removeClass("active");
+        $("nav.cgem ul li .subnav").fadeOut()
+      })
+    });
+  </script>
   <script src="js/cookies-policy.js"></script>
 </body>
 
