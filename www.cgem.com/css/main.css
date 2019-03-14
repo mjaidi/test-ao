@@ -28,7 +28,7 @@ h6 {
 }
 
 .cgem-body {
-	background: url(../images/repeat_BG_pattern13e1.gif?20190214043432);
+	background: url(images/repeat_BG_pattern13e1.gif?20190214043432);
 	padding: 5px 0 50px 0
 }
 
@@ -73,7 +73,7 @@ a {
 
 
 .home2016 .cgem-footer {
-	background: #0071cd;
+	background: #888;
 	padding: 20px 0
 }
 
@@ -169,7 +169,7 @@ a {
 }
 
 #homepage .homebanner.overlay .table {
-	background: url(../images/banner-overlay13e1.png?20190214043432) top left repeat
+	background: url(images/banner-overlay13e1.png?20190214043432) top left repeat
 }
 
 .home2016 .homebanner .cell {
@@ -476,7 +476,7 @@ a {
 }
 
 .home2016 .priorities table td.ourpriorities p span {
-	background: url(../images/orange-button13e1.png?20190214043432) center right no-repeat;
+	background: url(images/orange-button13e1.png?20190214043432) center right no-repeat;
 	width: 51px;
 	height: 47px;
 	display: inline-block;
@@ -847,7 +847,7 @@ nav.cgem ul li.search {
 }
 
 nav.cgem ul li.search a {
-	background: url(../images/ico/search-button-white13e1.png?20190214043432) no-repeat center left;
+	background: url(images/ico/search-button-white13e1.png?20190214043432) no-repeat center left;
 	width: 22px;
 	height: 100%;
 	padding: 0
@@ -1010,7 +1010,7 @@ nav.cgem .subnav .nav ul.top {
 }
 
 nav.cgem .subnav .nav ul.top li:first-child a {
-	background: url(../images/orange-button13e1.png?20190214043432) top right no-repeat;
+	background: url(images/orange-button13e1.png?20190214043432) top right no-repeat;
 	padding: 10px 55px 13px 0;
 	display: inline-block
 }
@@ -1170,15 +1170,15 @@ nav.cgem .search .subnav form .input-group-btn {
 	}
 }
 
-.home2017 .cgem-body {
+.cgem-home .cgem-body {
 	padding: 0
 }
 
-.home2017 .cgem-body .container {
+.cgem-home .cgem-body .container {
 	text-align: center
 }
 
-.home2017 .container h2 {
+.cgem-home .container h2 {
 	font: normal 26px/24px "DINNextLTPro-Regular", arial, sans-serif;
 	text-align: center;
 	text-transform: uppercase;
@@ -1186,37 +1186,37 @@ nav.cgem .search .subnav form .input-group-btn {
 	margin: 0 0 25px
 }
 
-.home2017 .container .cgem-content .feed~p.title {
+.cgem-home .container .cgem-content .feed~p.title {
 	font: 16px 'DINNextLTPro-Bold', arial, sans-serif;
 	text-align: center;
 	text-transform: none;
 	margin: 0
 }
 
-.home2017 section>.summary {
+.cgem-home section>.summary {
 	padding: 60px 25px
 }
 
-.home2017 section>.summary p {
+.cgem-home section>.summary p {
 	max-width: 720px;
 	margin: 0 auto
 }
 
-.home2017 section>.summary p~p {
+.cgem-home section>.summary p~p {
 	margin-top: 25px
 }
 
-.home2017 .news2017 ul.featured {
+.cgem-home .news2017 ul.featured {
 	padding-top: 5px
 }
 
-.home2017 .news2017 ul.featured li {
+.cgem-home .news2017 ul.featured li {
 	font-size: 0;
 	margin: 0 0 25px;
 	overflow: auto
 }
 
-.home2017 .news2017 ul.featured li .image {
+.cgem-home .news2017 ul.featured li .image {
 	width: 66.66%;
 	margin: 0;
 	padding: 0 8px 0 0;
@@ -1224,7 +1224,7 @@ nav.cgem .search .subnav form .input-group-btn {
 	vertical-align: top
 }
 
-.home2017 .news2017 ul.featured li .text {
+.cgem-home .news2017 ul.featured li .text {
 	width: 33.33%;
 	margin: 0;
 	padding: 0 0 0 17px;
@@ -1232,80 +1232,80 @@ nav.cgem .search .subnav form .input-group-btn {
 	vertical-align: top
 }
 
-.home2017 p.title.news {
+.cgem-home p.title.news {
 	margin: 25px 0 0
 }
 
-.home2017 .news2017 .row,
-.home2017 .topics .row,
-.home2017 .events2017 .row,
-.home2017 .membership2017 .row,
-.home2017 .ia2017 .row,
-.home2017 .bv2017 .row {
+.cgem-home .news2017 .row,
+.cgem-home .topics .row,
+.cgem-home .events2017 .row,
+.cgem-home .membership2017 .row,
+.cgem-home .ia2017 .row,
+.cgem-home .bv2017 .row {
 	margin: 0 25px
 }
 
-.home2017 .cgem-body-home {
+.cgem-home .cgem-body-home {
 	padding: 0
 }
 
-.home2017 .topics .row {
+.cgem-home .topics .row {
 	padding: 70px 0 0
 }
 
-.home2017 .topics p {
+.cgem-home .topics p {
 	max-width: 720px;
 	margin: 0 auto 15px
 }
 
-.home2017 .topics ul,
-.home2017 .topics .cgem-content ul {
+.cgem-home .topics ul,
+.cgem-home .topics .cgem-content ul {
 	font-size: 0;
 	margin: 40px 0 0;
 	padding: 0
 }
 
-.home2017 .topics ul li,
-.home2017 .topics .cgem-content ul li {
+.cgem-home .topics ul li,
+.cgem-home .topics .cgem-content ul li {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	display: inline-block
 }
 
-.home2017 .topics ul.one li {
+.cgem-home .topics ul.one li {
 	width: 100%
 }
 
-.home2017 .topics ul.two li {
+.cgem-home .topics ul.two li {
 	width: 50%
 }
 
-.home2017 .topics ul.three li {
+.cgem-home .topics ul.three li {
 	width: 33.33%
 }
 
-.home2017 .topics ul.two li:nth-child(2n+1) {
+.cgem-home .topics ul.two li:nth-child(2n+1) {
 	padding-right: 12.5px
 }
 
-.home2017 .topics ul.two li:nth-child(2n) {
+.cgem-home .topics ul.two li:nth-child(2n) {
 	padding-left: 12.5px
 }
 
-.home2017 .topics ul.three li:nth-child(3n+1) {
+.cgem-home .topics ul.three li:nth-child(3n+1) {
 	padding-right: 17px
 }
 
-.home2017 .topics ul.three li:nth-child(3n+2) {
+.cgem-home .topics ul.three li:nth-child(3n+2) {
 	padding: 0 8px
 }
 
-.home2017 .topics ul.three li:nth-child(3n) {
+.cgem-home .topics ul.three li:nth-child(3n) {
 	padding-left: 17px
 }
 
-.home2017 .topics ul li img {
+.cgem-home .topics ul li img {
 	background: center center no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -1313,39 +1313,40 @@ nav.cgem .search .subnav form .input-group-btn {
 	margin: 0
 }
 
-.home2017 .topics ul li span {
+.cgem-home .topics ul li span {
 	font: 18px/1.5em "DINNextLTPro-Light", arial, san-serif;
 	text-transform: uppercase;
 	background: #0071cd;
 	color: #fff;
 	padding: 10px;
-	display: block
+	display: block;
+	margin: 10px;
 }
 
-.home2017 .feature2017>p {
+.cgem-home .feature2017>p {
 	font-size: 0;
 	line-height: 0;
 	margin: 0
 }
 
-.home2017 .feature2017 iframe {
+.cgem-home .feature2017 iframe {
 	width: 100%;
 	margin: 70px 0 0
 }
 
-.home2017 .feature2017 .video {
+.cgem-home .feature2017 .video {
 	display: none
 }
 
-.home2017 ul.featured,
-.home2017 ul.feed {
+.cgem-home ul.featured,
+.cgem-home ul.feed {
 	font-size: 0;
 	margin: 0;
 	padding: 0
 }
 
-.home2017 ul.featured>li,
-.home2017 ul.feed>li {
+.cgem-home ul.featured>li,
+.cgem-home ul.feed>li {
 	font-size: 15px;
 	text-align: left;
 	list-style-type: none;
@@ -1356,42 +1357,42 @@ nav.cgem .search .subnav form .input-group-btn {
 	vertical-align: top
 }
 
-.home2017 ul.featured>li {
+.cgem-home ul.featured>li {
 	width: 100%
 }
 
-.home2017 ul.feed>li:nth-child(3n+1) {
+.cgem-home ul.feed>li:nth-child(3n+1) {
 	padding: 0 17px 25px 0
 }
 
-.home2017 ul.feed>li:nth-child(3n+2) {
+.cgem-home ul.feed>li:nth-child(3n+2) {
 	padding: 0 8px 25px
 }
 
-.home2017 ul.feed>li:nth-child(3n) {
+.cgem-home ul.feed>li:nth-child(3n) {
 	padding: 0 0 25px 17px
 }
 
-.home2017 ul.featured>li img,
-.home2017 ul.feed>li img {
+.cgem-home ul.featured>li img,
+.cgem-home ul.feed>li img {
 	background: center center no-repeat #ddd;
 	background-size: cover;
 	width: 100%;
 	margin: 0
 }
 
-.home2017 ul.featured>li>div,
-.home2017 ul.feed>li>div {
+.cgem-home ul.featured>li>div,
+.cgem-home ul.feed>li>div {
 	margin: 0;
 	position: relative
 }
 
-.home2017 ul.featured>li>div img,
-.home2017 ul.feed>li>div img {
+.cgem-home ul.featured>li>div img,
+.cgem-home ul.feed>li>div img {
 	margin: 0
 }
 
-.home2017 ul.feed>li>div .format {
+.cgem-home ul.feed>li>div .format {
 	font: 11px/1em 'DINNextLTPro-Medium', arial, sans-serif;
 	text-transform: uppercase;
 	background: rgba(0, 113, 205, 0.85);
@@ -1403,75 +1404,75 @@ nav.cgem .search .subnav form .input-group-btn {
 	left: 0
 }
 
-.home2017 ul.feed>li .type,
-.home2017 ul.featured>li .date,
-.home2017 ul.feed>li .date {
+.cgem-home ul.feed>li .type,
+.cgem-home ul.featured>li .date,
+.cgem-home ul.feed>li .date {
 	font-size: 11px;
 	margin: 10px 0
 }
 
-.home2017 ul.featured>li .date,
-.home2017 ul.feed>li .date {
+.cgem-home ul.featured>li .date,
+.cgem-home ul.feed>li .date {
 	line-height: 11px;
 	margin: 20px 0
 }
 
-.home2017 ul.feed>li .type {
+.cgem-home ul.feed>li .type {
 	font-weight: bold;
 	text-transform: uppercase
 }
 
-.home2017 ul.feed>li .type .i,
-.home2017 ul.feed>li .date .l {
+.cgem-home ul.feed>li .type .i,
+.cgem-home ul.feed>li .date .l {
 	float: right;
 	display: block
 }
 
-.home2017 ul.feed>li .date .l {
+.cgem-home ul.feed>li .date .l {
 	text-transform: uppercase
 }
 
-.home2017 ul.featured>li .title,
-.home2017 ul.feed>li .title {
+.cgem-home ul.featured>li .title,
+.cgem-home ul.feed>li .title {
 	font: 19px DINNextLTPro-Regular, arial, sans-serif;
 	margin: 10px 0
 }
 
-.home2017 ul.feed>li .summary span:first-child {
+.cgem-home ul.feed>li .summary span:first-child {
 	float: left
 }
 
-.home2017 ul.featured>li .summary p,
-.home2017 ul.feed>li .summary p {
+.cgem-home ul.featured>li .summary p,
+.cgem-home ul.feed>li .summary p {
 	margin: 0
 }
 
-.home2017 ul.featured>li .summary p~p .home2017 ul.feed>li .summary p~p {
+.cgem-home ul.featured>li .summary p~p .cgem-home ul.feed>li .summary p~p {
 	display: none
 }
 
-.home2017 ul.feed>li .summary ol,
-.home2017 ul.feed>li .summary ul {
+.cgem-home ul.feed>li .summary ol,
+.cgem-home ul.feed>li .summary ul {
 	font-size: inherit
 }
 
-.home2017 ul.feed>li .summary ol li,
-.home2017 ul.feed>li .summary ul li {
+.cgem-home ul.feed>li .summary ol li,
+.cgem-home ul.feed>li .summary ul li {
 	list-style-type: decimal
 }
 
-.home2017 ul.feed>li .summary ul {
+.cgem-home ul.feed>li .summary ul {
 	margin: 0;
 	padding: 0
 }
 
-.home2017 ul.feed>li .summary ul li {
+.cgem-home ul.feed>li .summary ul li {
 	list-style-type: none;
 	margin: 10px 0 0;
 	padding: 0
 }
 
-.home2017 .coverage2017 {
+.cgem-home .coverage2017 {
 	background-color: #0071cd;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1480,15 +1481,15 @@ nav.cgem .search .subnav form .input-group-btn {
 	margin-bottom: 80px
 }
 
-.home2017 .coverage2017 .row {
+.cgem-home .coverage2017 .row {
 	padding: 70px 25px 60px
 }
 
-.home2017 .coverage2017 .cgem-content {
+.cgem-home .coverage2017 .cgem-content {
 	background: 0
 }
 
-.home2017 .coverage2017 h2 {
+.cgem-home .coverage2017 h2 {
 	text-align: center;
 	color: #fff;
 	max-width: 920px;
@@ -1496,120 +1497,120 @@ nav.cgem .search .subnav form .input-group-btn {
 	margin-right: auto
 }
 
-.home2017 .coverage2017 h2~p {
+.cgem-home .coverage2017 h2~p {
 	color: #fff
 }
 
-.home2017 .coverage2017 h2~p a:not(.white) {
+.cgem-home .coverage2017 h2~p a:not(.white) {
 	color: #00c1d5
 }
 
-.home2017 .coverage2017 .feed {
+.cgem-home .coverage2017 .feed {
 	margin: 40px auto;
 	cursor: move
 }
 
-.home2017 .coverage2017 .feed .item {
+.cgem-home .coverage2017 .feed .item {
 	background: #fff;
 	height: auto;
 	padding: 0;
 	transition: height 1s ease
 }
 
-.home2017 .coverage2017 .feed .item img {
+.cgem-home .coverage2017 .feed .item img {
 	background: center center no-repeat;
 	background-size: cover
 }
 
-.home2017 .coverage2017 .feed .item .date,
-.home2017 .coverage2017 .feed .item .title,
-.home2017 .coverage2017 .feed .item .summary {
+.cgem-home .coverage2017 .feed .item .date,
+.cgem-home .coverage2017 .feed .item .title,
+.cgem-home .coverage2017 .feed .item .summary {
 	text-align: left;
 	padding: 0 15px
 }
 
-.home2017 .coverage2017 .feed .item .date {
+.cgem-home .coverage2017 .feed .item .date {
 	font-size: 11px;
 	line-height: 11px;
 	margin: 20px 0
 }
 
-.home2017 .coverage2017 .feed .item .title {
+.cgem-home .coverage2017 .feed .item .title {
 	font: 19px DINNextLTPro-Regular, arial, sans-serif;
 	margin: 10px 0;
 	padding-bottom: 20px
 }
 
-.home2017 .coverage2017 .feed .item .summary {
+.cgem-home .coverage2017 .feed .item .summary {
 	padding-bottom: 20px
 }
 
-.home2017 .coverage2017 .feed .item .summary p {
+.cgem-home .coverage2017 .feed .item .summary p {
 	margin: 0
 }
 
-.home2017 .promotions2017 .row {
+.cgem-home .promotions2017 .row {
 	margin: 0;
 	padding: 80px 0 70px
 }
 
-.home2017 .promotions {
+.cgem-home .promotions {
 	margin: 0 25px
 }
 
-.home2017 .promotions img {
+.cgem-home .promotions img {
 	margin: 0
 }
 
-.home2017 .events2017 .row {
+.cgem-home .events2017 .row {
 	padding: 0 0 60px
 }
 
-.home2017 .events2017 p {
+.cgem-home .events2017 p {
 	max-width: 720px;
 	margin: 0 auto 15px
 }
 
-.home2017 .events2017 ul.feed {
+.cgem-home .events2017 ul.feed {
 	margin-top: 40px
 }
 
-.home2017 .membership2017 {
+.cgem-home .membership2017 {
 	background: #0071cd;
 	color: #fff;
 	max-width: 100%
 }
 
-.home2017 .membership2017 .row {
+.cgem-home .membership2017 .row {
 	margin: 0 auto;
 	padding: 70px 25px
 }
 
-.home2017 .membership2017 .cgem-content {
+.cgem-home .membership2017 .cgem-content {
 	background: 0
 }
 
-.home2017 .membership2017 h2,
-.home2017 .membership2017 p a {
+.cgem-home .membership2017 h2,
+.cgem-home .membership2017 p a {
 	color: #fff
 }
 
-.home2017 .membership2017 p {
+.cgem-home .membership2017 p {
 	max-width: 720px;
 	margin: 0 auto 15px
 }
 
-.home2017 .membership2017 hr~p {
+.cgem-home .membership2017 hr~p {
 	font: 22px/1.5em "DINNextLTPro-Light", arial, sans-serif
 }
 
-.home2017 .membership2017 ul {
+.cgem-home .membership2017 ul {
 	font-size: 0;
 	margin: 35px 0 0;
 	padding: 0
 }
 
-.home2017 .membership2017 ul li {
+.cgem-home .membership2017 ul li {
 	font-size: 15px;
 	text-align: center;
 	color: #fff;
@@ -1619,29 +1620,29 @@ nav.cgem .search .subnav form .input-group-btn {
 	position: relative
 }
 
-.home2017 .membership2017 ul li:nth-child(3n+1) {
+.cgem-home .membership2017 ul li:nth-child(3n+1) {
 	padding: 0 17px 0 0
 }
 
-.home2017 .membership2017 ul li:nth-child(3n+2) {
+.cgem-home .membership2017 ul li:nth-child(3n+2) {
 	padding: 0 8px
 }
 
-.home2017 .membership2017 ul li:nth-child(3n) {
+.cgem-home .membership2017 ul li:nth-child(3n) {
 	padding: 0 0 0 17px
 }
 
-.home2017 .membership2017 ul li>div {
+.cgem-home .membership2017 ul li>div {
 	background: #082559;
 	width: 100%;
 	position: relative
 }
 
-.home2017 .membership2017 ul li>div div {
+.cgem-home .membership2017 ul li>div div {
 	padding: 10px 0
 }
 
-.home2017 .membership2017 ul li a {
+.cgem-home .membership2017 ul li a {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -1650,34 +1651,34 @@ nav.cgem .search .subnav form .input-group-btn {
 	z-index: 100
 }
 
-.home2017 .membership2017 ul li img {
+.cgem-home .membership2017 ul li img {
 	background: center center no-repeat;
 	background-size: cover;
 	width: 100%;
 	margin: 0
 }
 
-.home2017 .ia2017 .row {
+.cgem-home .ia2017 .row {
 	padding: 70px 0 60px
 }
 
-.home2017 .ia2017 p {
+.cgem-home .ia2017 p {
 	max-width: 720px;
 	margin: 0 auto 15px
 }
 
-.home2017 .ia2017 ul.feed {
+.cgem-home .ia2017 ul.feed {
 	margin: 35px 0 0
 }
 
-.home2017 .bv2017,
+.cgem-home .bv2017,
 .bv2017 {
 	background: #000;
 	color: #fff;
 	max-width: 100%
 }
 
-.home2017 .bv2017 .row,
+.cgem-home .bv2017 .row,
 .bv2017 .row {
 	margin: 0 auto;
 	padding: 70px 25px 60px
@@ -1685,10 +1686,10 @@ nav.cgem .search .subnav form .input-group-btn {
 
 @media(min-width: 991px) {
 
-	.home2017 .news2017 .row,
-	.home2017 .topics .row,
-	.home2017 .membership2017 .row,
-	.home2017 .bv2017 .row,
+	.cgem-home .news2017 .row,
+	.cgem-home .topics .row,
+	.cgem-home .membership2017 .row,
+	.cgem-home .bv2017 .row,
 	.sub2016 .bv2017 .row {
 		max-width: 970px
 	}
@@ -1696,174 +1697,174 @@ nav.cgem .search .subnav form .input-group-btn {
 
 @media(max-width: 991px) {
 
-	.home2017 .news2017 .row,
-	.home2017 .topics .row,
-	.home2017 .membership2017 .row,
-	.home2017 .bv2017 .row,
+	.cgem-home .news2017 .row,
+	.cgem-home .topics .row,
+	.cgem-home .membership2017 .row,
+	.cgem-home .bv2017 .row,
 	.sub2016 .bv2017 .row {
 		max-width: 750px
 	}
 }
 
 @media(min-width: 750px) {
-	.home2017 .news2017 ul.featured>li .date {
+	.cgem-home .news2017 ul.featured>li .date {
 		margin-top: 0
 	}
 }
 
 @media(min-width: 0) and (max-width:750px) {
-	.home2017 .cbi-content {
+	.cgem-home .cbi-content {
 		margin: 0
 	}
 
-	.home2017 ul.feed>li:nth-child(3n+1),
-	.home2017 ul.feed>li:nth-child(3n+2),
-	.home2017 ul.feed>li:nth-child(3n) {
+	.cgem-home ul.feed>li:nth-child(3n+1),
+	.cgem-home ul.feed>li:nth-child(3n+2),
+	.cgem-home ul.feed>li:nth-child(3n) {
 		width: 100%;
 		margin: 0 0 25px;
 		padding: 0
 	}
 
-	.home2017 .news2017 ul.featured li .image,
-	.home2017 .news2017 ul.featured li .text {
+	.cgem-home .news2017 ul.featured li .image,
+	.cgem-home .news2017 ul.featured li .text {
 		width: 100%;
 		padding: 0;
 		display: block
 	}
 
-	.home2017 .news2017 ul.feed {
+	.cgem-home .news2017 ul.feed {
 		display: none
 	}
 
-	.home2017 .topics ul li~li,
-	.home2017 .topics .cbi-content ul li~li {
+	.cgem-home .topics ul li~li,
+	.cgem-home .topics .cbi-content ul li~li {
 		margin-top: 25px
 	}
 
-	.home2017 .topics ul.one li,
-	.home2017 .topics ul.two li,
-	.home2017 .topics ul.three li {
+	.cgem-home .topics ul.one li,
+	.cgem-home .topics ul.two li,
+	.cgem-home .topics ul.three li {
 		width: 100%
 	}
 
-	.home2017 .topics ul.two li:nth-child(2n+1),
-	.home2017 .topics ul.two li:nth-child(2n),
-	.home2017 .topics ul.three li:nth-child(3n+1),
-	.home2017 .topics ul.three li:nth-child(3n+2),
-	.home2017 .topics ul.three li:nth-child(3n) {
+	.cgem-home .topics ul.two li:nth-child(2n+1),
+	.cgem-home .topics ul.two li:nth-child(2n),
+	.cgem-home .topics ul.three li:nth-child(3n+1),
+	.cgem-home .topics ul.three li:nth-child(3n+2),
+	.cgem-home .topics ul.three li:nth-child(3n) {
 		padding: 0
 	}
 
-	.home2017 .topics ul li img {
+	.cgem-home .topics ul li img {
 		display: none
 	}
 
-	.home2017 .promotions2017 .promotions {
+	.cgem-home .promotions2017 .promotions {
 		margin: 0
 	}
 
-	.home2017 .membership2017 ul li {
+	.cgem-home .membership2017 ul li {
 		width: 100%;
 		margin: 0
 	}
 
-	.home2017 .membership2017 ul li~li {
+	.cgem-home .membership2017 ul li~li {
 		display: none
 	}
 
-	.home2017 .membership2017 ul li div {
+	.cgem-home .membership2017 ul li div {
 		padding: 0
 	}
 
-	.home2017 .bv2017 h2 span,
+	.cgem-home .bv2017 h2 span,
 	.sub2016 .bv2017 h2 span {
 		font-size: 19px;
 		margin: 20px auto 30px;
 		display: block
 	}
 
-	.home2017 .bv2017 h2 span.logo,
+	.cgem-home .bv2017 h2 span.logo,
 	.sub2016 .bv2017 h2 span.logo {
 		margin: 0 auto 30px;
 		display: block;
 		top: 0
 	}
 
-	.home2017 .bv2017 ul li~li,
+	.cgem-home .bv2017 ul li~li,
 	.sub2016 .bv2017 ul li~li,
-	.home2017 .events2017 ul li~li,
-	.home2017 .ia2017 ul li~li {
+	.cgem-home .events2017 ul li~li,
+	.cgem-home .ia2017 ul li~li {
 		display: none
 	}
 }
 
 @media(min-width:750px) {
-	.home2017 .news2017 ul.featured>li .date {
+	.cgem-home .news2017 ul.featured>li .date {
 		margin-top: 0
 	}
 }
 
 @media(min-width:0) and (max-width:750px) {
-	.home2017 .cgem-content {
+	.cgem-home .cgem-content {
 		margin: 0
 	}
 
-	.home2017 ul.feed>li:nth-child(3n+1),
-	.home2017 ul.feed>li:nth-child(3n+2),
-	.home2017 ul.feed>li:nth-child(3n) {
+	.cgem-home ul.feed>li:nth-child(3n+1),
+	.cgem-home ul.feed>li:nth-child(3n+2),
+	.cgem-home ul.feed>li:nth-child(3n) {
 		width: 100%;
 		margin: 0 0 25px;
 		padding: 0
 	}
 
-	.home2017 .news2017 ul.featured li .image,
-	.home2017 .news2017 ul.featured li .text {
+	.cgem-home .news2017 ul.featured li .image,
+	.cgem-home .news2017 ul.featured li .text {
 		width: 100%;
 		padding: 0;
 		display: block
 	}
 
-	.home2017 .news2017 ul.feed {
+	.cgem-home .news2017 ul.feed {
 		display: none
 	}
 
-	.home2017 .topics ul li~li,
-	.home2017 .topics .cgem-content ul li~li {
+	.cgem-home .topics ul li~li,
+	.cgem-home .topics .cgem-content ul li~li {
 		margin-top: 25px
 	}
 
-	.home2017 .topics ul.one li,
-	.home2017 .topics ul.two li,
-	.home2017 .topics ul.three li {
+	.cgem-home .topics ul.one li,
+	.cgem-home .topics ul.two li,
+	.cgem-home .topics ul.three li {
 		width: 100%
 	}
 
-	.home2017 .topics ul.two li:nth-child(2n+1),
-	.home2017 .topics ul.two li:nth-child(2n),
-	.home2017 .topics ul.three li:nth-child(3n+1),
-	.home2017 .topics ul.three li:nth-child(3n+2),
-	.home2017 .topics ul.three li:nth-child(3n) {
+	.cgem-home .topics ul.two li:nth-child(2n+1),
+	.cgem-home .topics ul.two li:nth-child(2n),
+	.cgem-home .topics ul.three li:nth-child(3n+1),
+	.cgem-home .topics ul.three li:nth-child(3n+2),
+	.cgem-home .topics ul.three li:nth-child(3n) {
 		padding: 0
 	}
 
-	.home2017 .topics ul li img {
+	.cgem-home .topics ul li img {
 		display: none
 	}
 
-	.home2017 .promotions2017 .promotions {
+	.cgem-home .promotions2017 .promotions {
 		margin: 0
 	}
 
-	.home2017 .membership2017 ul li {
+	.cgem-home .membership2017 ul li {
 		width: 100%;
 		margin: 0
 	}
 
-	.home2017 .membership2017 ul li~li {
+	.cgem-home .membership2017 ul li~li {
 		display: none
 	}
 
-	.home2017 .membership2017 ul li div {
+	.cgem-home .membership2017 ul li div {
 		padding: 0
 	}
 }
@@ -1883,20 +1884,20 @@ nav.cgem .search .subnav form .input-group-btn {
 	margin: 0
 }
 
-.home2017 .cgem-body.takeover .container {
+.cgem-home .cgem-body.takeover .container {
 	background: #fff
 }
 
-.home2017 .cgem-body.takeover .membership2017,
-.home2017 .cgem-body.takeover .bv2017 {
+.cgem-home .cgem-body.takeover .membership2017,
+.cgem-home .cgem-body.takeover .bv2017 {
 	max-width: 970px
 }
 
-.home2017 .cgem-body.takeover .membership2017 {
+.cgem-home .cgem-body.takeover .membership2017 {
 	background: #0071cd
 }
 
-.home2017 .cgem-body.takeover .bv2017 {
+.cgem-home .cgem-body.takeover .bv2017 {
 	background: #000
 }
 
@@ -1915,8 +1916,8 @@ nav.cgem .search .subnav form .input-group-btn {
 @media(max-width:991px) {
 
 	.home2016 .cgem-body.takeover .homebanner,
-	.home2017 .cgem-body.takeover .membership2017,
-	.home2017 .cgem-body.takeover .bv2017 {
+	.cgem-home .cgem-body.takeover .membership2017,
+	.cgem-home .cgem-body.takeover .bv2017 {
 		max-width: 750px
 	}
 }
@@ -2060,7 +2061,7 @@ nav.cgem .search .subnav form .input-group-btn {
 }
 
 .glyphicon-twitter {
-	content: url(../images/ico/twitter18x1813e1.png?20190214043432);
+	content: url(images/ico/twitter18x1813e1.png?20190214043432);
 	top: 3px
 }
 
@@ -2109,7 +2110,7 @@ nav.cgem .search .subnav form .input-group-btn {
 	color: #0071cd
 }
 
-.home2017 .cgem-body a.blue {
+.cgem-home .cgem-body a.blue {
 	font-size: 15px;
 	background: #fff;
 	color: #0071cd;
@@ -2125,13 +2126,13 @@ nav.cgem .search .subnav form .input-group-btn {
 	padding: 11px 40px 9px
 }
 
-.home2017 .cgem-body a.blue:hover,
+.cgem-home .cgem-body a.blue:hover,
 #homepage>div.cgem-body.cgem-body--home>div.container.bv2017>div>section>p:nth-child(4)>a:hover {
 	background: #0071cd;
 	color: #fff
 }
 
-.home2017 .cgem-body a.white {
+.cgem-home .cgem-body a.white {
 	font-size: 15px;
 	padding: 11px 40px 9px
 }
@@ -2244,7 +2245,8 @@ body[data-page="business-issues"] .main:empty {
 .cgem-body iframe {
 	max-width: 100%;
 	border: 0;
-	outline: 0
+	outline: 0;
+	padding: 10px;
 }
 
 .cgem-body iframe[id*=twitter] {
@@ -2370,22 +2372,22 @@ body[data-page="business-issues"] .main:empty {
 
 .dsmSquares .networks .section h2,
 .dsmSquares .networks .title h2 {
-	background-image: url(../images/dsm-squares/cloud13e1.gif?20190214043432)
+	background-image: url(images/dsm-squares/cloud13e1.gif?20190214043432)
 }
 
 .dsmSquares .content .section h2,
 .dsmSquares .content .title h2 {
-	background-image: url(../images/dsm-squares/bubble13e1.gif?20190214043432)
+	background-image: url(images/dsm-squares/bubble13e1.gif?20190214043432)
 }
 
 .dsmSquares .commerce .section h2,
 .dsmSquares .commerce .title h2 {
-	background-image: url(../images/dsm-squares/cart13e1.gif?20190214043432)
+	background-image: url(images/dsm-squares/cart13e1.gif?20190214043432)
 }
 
 .dsmSquares .data .section h2,
 .dsmSquares .data .title h2 {
-	background-image: url(../images/dsm-squares/lock13e1.gif?20190214043432)
+	background-image: url(images/dsm-squares/lock13e1.gif?20190214043432)
 }
 
 .dsmSquares .title {
@@ -2440,7 +2442,7 @@ body[data-page="business-issues"] .main:empty {
 }
 
 .dsmSquares span {
-	background: url(../images/dsm-squares/arrow13e1.gif?20190214043432) top left no-repeat;
+	background: url(images/dsm-squares/arrow13e1.gif?20190214043432) top left no-repeat;
 	text-align: center;
 	width: 17px;
 	height: 15px;
@@ -2904,7 +2906,7 @@ button {
 }
 
 .eumap .inner .box .exit {
-	background: url(../images/x13e1.png?20190214043432) center center no-repeat;
+	background: url(images/x13e1.png?20190214043432) center center no-repeat;
 	background-size: cover;
 	width: 14px;
 	height: 14px;
@@ -6397,16 +6399,16 @@ span#optout {
 	box-shadow: none;
 }
 
-.home2017 .cbi-body .container {
+.cgem-home .cbi-body .container {
 	text-align: center;
 }
 
-.home2017 .bv2017 .cbi-content,
+.cgem-home .bv2017 .cbi-content,
 .sub2016 .bv2017 .cbi-content {
 	background: 0;
 }
 
-.home2017 .bv2017,
+.cgem-home .bv2017,
 .sub2016 .bv2017 {
 	background: #000;
 	color: #fff;
